@@ -1,0 +1,21 @@
+{
+    "name": "pierre/learning-paths-api",
+    "description": "Learning Paths API for L'Université Numérique",
+    "type": "wordpress-plugin",
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pierre\\LearningPathsApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pierre Duverneix - Fondation UNIT",
+            "email": "pierre.duverneix@unit.eu"
+        }
+    ],
+    "require": {}
+}
