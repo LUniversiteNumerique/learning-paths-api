@@ -26,16 +26,11 @@ function learningpathsapi_activate() {
     learningpathsapi_seed();
 }
 
-function learningpathsapi_uninstall() {
-
-}
-
 function learningpathsapi_install() {
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 
     global $wpdb;
     $charset_collate = $wpdb->get_charset_collate();
-
     $lpaSchema = new LPASchema($wpdb->prefix, $charset_collate);
 
     foreach($lpaSchema->build_tables() as $table) {
@@ -45,22 +40,21 @@ function learningpathsapi_install() {
 
 function learningpathsapi_seed() {
     require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+
     global $wpdb;
+    $charset_collate = $wpdb->get_charset_collate();
+    $lpaSchema = new LPASchema($wpdb->prefix, $charset_collate);
 
-    $table_name = $wpdb->prefix . "learningpathsapi_diploma"; 
-    $wpdb->insert( 
-        $table_name, 
-        array( 
-            'time' => current_time('mysql'), 
-            'name' => "Licence mention informatique"
-        )
-    );
+    foreach($lpaSchema->seed() as $table) {
+        $wpdb->insert($table->table, $table->data);
+    }
+}
 
-    $table_name = $wpdb->prefix . "learningpathsapi_year"; 
-    $wpdb->insert($table_name, array('name' => "1ère année"));
-
-    $table_name = $wpdb->prefix . "learningpathsapi_ue"; 
-    $wpdb->insert($table_name, array(
-        'name' => "Algorithmique et programmation"
-    ));
+function learningpathsapi_uninstall() {
+    global $wpdb;
+    $charset_collate = $wpdb->get_charset_collate();
+    $lpaSchema = new LPASchema($wpdb->prefix, $charset_collate);
+    foreach($lpaSchema->drop_tables() as $sql) {
+        $wpdb->query($sql);
+    }
 }
