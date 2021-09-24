@@ -1,19 +1,24 @@
 <?php
 
 /**
- * Plugin Name: Learning Paths API
  *
  * @author            Pierre Duverneix
  * @copyright         2021 Fondation UNIT
  * @license           GPL-2.0-or-later
- * Plugin URI:        https://example.com/plugin-name
- * Description:       Learning paths API of L'Université Numérique
- * Version:           1.0.0
 */
 
 require_once dirname( __DIR__ ) . '/../../../../wp-load.php';
 
 class Diploma {
+    protected function prepareDiplomas() {
+        global $wpdb;
+        return $wpdb->get_results(
+            "SELECT diploma.*
+            FROM {$wpdb->prefix}learningpathsapi_diploma as diploma",
+            OBJECT
+        );
+    }
+
     protected function prepareDiploma($diplomaid) {
         global $wpdb;
         return $wpdb->get_row(
@@ -82,40 +87,46 @@ class Diploma {
 
     public function getDiploma($id) {
         $result = new \stdClass();
-        $diploma = $this->prepareDiploma($id);
+        $result->diplomas = array();
+        $diplomas = $this->prepareDiplomas();
 
-        if (isset($diploma->name)) {
-            $result->name = $diploma->name;
-            $diplomaYears = $this->prepareDiplomaYears($diploma->id);
+        foreach($diplomas as $diploma) {
+            if (isset($diploma->name)) {            
+                $diplomaYears = $this->prepareDiplomaYears($diploma->id);
+                $diplome = new \stdClass;
+                $diplome->id = $diploma->id;
+                $diplome->name = $diploma->name;
+                
+                if (isset($diplomaYears)) {
+                    $diplome->years = array();
+                    foreach($diplomaYears as $dy) {
+                        $year = new \stdClass;
+                        $year->name = $dy->name;
+                        $year->ue = array();
 
-            if (isset($diplomaYears)) {
-                $result->years = array();
-                foreach($diplomaYears as $dy) {
-                    $year = new \stdClass;
-                    $year->name = $dy->name;
-                    $year->ue = array();
+                        $diplomaYearUe = $this->prepareDiplomaYearUe($diploma->id, $dy->id);
 
-                    $diplomaYearUe = $this->prepareDiplomaYearUe($diploma->id, $dy->id);
+                        foreach($diplomaYearUe as $dyu) {
+                            $ue = new \stdClass;
+                            $ue->name = $dyu->name;
+                            $ue->resources = array();
 
-                    foreach($diplomaYearUe as $dyu) {
-                        $ue = new \stdClass;
-                        $ue->name = $dyu->name;
-                        $ue->resources = array();
+                            $resources = $this->prepareResources($dyu->id);
 
-                        $resources = $this->prepareResources($dyu->id);
+                            foreach($resources as $resource) {
+                                $res = new \stdClass;
+                                $res->name = $resource->name;
+                                $res->url = $resource->url;
+                                $res->type[] = $resource->types;
+                                $ue->resources[] = $res;
+                            }
 
-                        foreach($resources as $resource) {
-                            $res = new \stdClass;
-                            $res->name = $resource->name;
-                            $res->url = $resource->url;
-                            $res->type[] = $resource->types;
-                            $ue->resources[] = $res;
+                            $year->ue[] = $ue;
                         }
 
-                        $year->ue[] = $ue;
+                        $diplome->years[] = $year;
                     }
-
-                    $result->years[] = $year;
+                    $result->diplomas[] = $diplome;
                 }
             }
         }

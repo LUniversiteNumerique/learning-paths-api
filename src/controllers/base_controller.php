@@ -1,14 +1,10 @@
 <?php
 
 /**
- * Plugin Name: Learning Paths API
  *
  * @author            Pierre Duverneix
  * @copyright         2021 Fondation UNIT
  * @license           GPL-2.0-or-later
- * Plugin URI:        https://example.com/plugin-name
- * Description:       Learning paths API of L'Université Numérique
- * Version:           1.0.0
 */
 
 class BaseController {
