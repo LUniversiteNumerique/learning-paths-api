@@ -25,7 +25,7 @@ class DiplomaController extends BaseController {
                 $diplomaModel = new Diploma();
                 $diplomaId = $arrParams[$len-1];
                 if (isset($diplomaId)) {
-                    $responseData = json_encode($diplomaModel->getDiploma($diplomaId));
+                    $responseData = json_encode($diplomaModel->getData());
                 }
             } catch (Error $e) {
                 $strErrorDesc = $e->getMessage().'Something went wrong! Please contact support.';

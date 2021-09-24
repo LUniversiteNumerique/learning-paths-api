@@ -17,5 +17,7 @@
             "email": "pierre.duverneix@unit.eu"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/yaml": "^5.3"
+    }
 }

@@ -10,6 +10,8 @@
 require_once dirname( __DIR__ ) . '/../../wp-load.php';
 require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 
+use Symfony\Component\Yaml\Yaml;
+
 class LPASchema {
     public function __construct($table_prefix, $charset_collate) {
         $this->table_prefix = $table_prefix;
@@ -133,7 +135,6 @@ class LPASchema {
         $seeds = array();
 
         // learningpathsapi_field
-
         $seed = new \stdClass();
         $seed->table = $this->table_prefix . "learningpathsapi_field"; 
         $seed->data = array("name" => "Sciences, Technologie, Santé");
@@ -339,17 +340,6 @@ class LPASchema {
         unset($seed);
 
         // learningpathsapi_resource
-        /*
-        $seed = new \stdClass();
-        $seed->table = $this->table_prefix . "learningpathsapi_resource"; 
-        $seed->data = array(
-            "name" => "",
-            "volume" => "",
-            "url" => ""
-        );
-        array_push($seeds, $seed);
-        unset($seed);
-        */
 
         $seed = new \stdClass();
         $seed->table = $this->table_prefix . "learningpathsapi_resource"; 
@@ -573,14 +563,25 @@ class LPASchema {
         // learningpathsapi_ue_resource
 
         $i = 1;
-        for ($i; $i < 12; $i++) {
+        for ($i; $i < 11; $i++) {
             $seed = new \stdClass();
             $seed->table = $this->table_prefix . "learningpathsapi_ue_resource"; 
             $seed->data = array("ue_id" => 1, "resource_id" => $i);
             array_push($seeds, $seed);
             unset($seed);
         }
-    
+
+        $i = 11;
+        for ($i; $i < 12; $i++) {
+            $seed = new \stdClass();
+            $seed->table = $this->table_prefix . "learningpathsapi_ue_resource"; 
+            $seed->data = array("ue_id" => 2, "resource_id" => $i);
+            array_push($seeds, $seed);
+            unset($seed);
+        }
+   
+        $seeds = Yaml::parseFile(__DIR__ . '/seeds.yml');
+        
         return $seeds;
     }
 
