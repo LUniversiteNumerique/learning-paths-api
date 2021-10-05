@@ -14,13 +14,17 @@ $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri = explode( '/', $uri );
 $len = count($uri);
 
-if ((isset($uri[$len-2]) && $uri[$len-2] != 'diploma') || !isset($uri[$len-1])) {
+if ((isset($uri[$len-2]) && ($uri[$len-2] != 'diploma' && $uri[$len-2] != 'fields')) || !isset($uri[$len-1])) {
     header("HTTP/1.1 404 Not Found");
     exit();
 }
 
 $objFeedController = new DiplomaController();
-$strMethodName = $uri[$len-2] . 'Action';
+if ($uri[$len-2] == 'diploma') {
+    $strMethodName = 'diplomaAction';
+} else {
+    $strMethodName = 'fieldsAction';
+}
 $objFeedController->{$strMethodName}();
 
 print $objFeedController;

@@ -11,21 +11,37 @@
  * Version:           1.0.0
 */
 
+require_once 'src/models/diploma.php';
+
 register_activation_hook(__FILE__, 'learningpathsapi_activate');
 register_deactivation_hook(__FILE__, 'learningpathsapi_deactivate');
 register_uninstall_hook(__FILE__, 'learningpathsapi_uninstall');
 
-function learningpathsapi_deactivate() {
+function learningpathsapi_get_fields() {
+    $diplomaModel = new Diploma();
+    return $diplomaModel->getFields();
 }
 
-function learningpathsapi_activate() {
+function learningpathsapi_get_data($data) {
+    $diplomaId = $data['id'];
+    $diplomaModel = new Diploma();
+    return $diplomaModel->getData($diplomaId);
 }
 
-function learningpathsapi_install() {
-}
-
-function learningpathsapi_seed() {
-}
-
-function learningpathsapi_uninstall() {
-}
+add_action('rest_api_init', function () {
+  register_rest_route('learningpathsapi/v1', '/fields/all', array(
+    'methods' => 'GET',
+    'callback' => 'learningpathsapi_get_fields',
+  ));
+  register_rest_route('learningpathsapi/v1', '/data/(?P<id>\d+)', array(
+    'methods' => 'GET',
+    'callback' => 'learningpathsapi_get_data',
+    'args' => array(
+        'id' => array(
+            'validate_callback' => function($param, $request, $key) {
+                return is_numeric($param);
+            }
+        ),
+    ),
+  ));
+});

@@ -7,15 +7,29 @@
  * @license           GPL-2.0-or-later
 */
 
-require_once dirname( __DIR__ ) . '/../../../../wp-load.php';
+require_once dirname(__DIR__) . '/../../../../wp-load.php';
+require plugin_dir_path(__FILE__) . '../../vendor/autoload.php';
 
 use Symfony\Component\Yaml\Yaml;
 
 class Diploma {
-    public function getData() {
-        $seeds = Yaml::parseFile(__DIR__ . '/../../seeds.yml');
+    public function getFields() {
+        $seeds = Yaml::parseFile(__DIR__ . '/../../seeds/fields.yml');
+        return $seeds;
+    }
+
+    public function getData($id) {
         $result = new \stdClass();
-        $result->fields = $seeds['fields'];
+        $result = array();
+        $files = glob(__DIR__ . '/../../seeds/**/*.yml');
+        
+        foreach($files as $filename) {
+            $parts = explode("/", $filename);
+            $fileId = explode("-", $parts[count($parts)-1])[0];
+            if (is_numeric($fileId) && $fileId === $id) {
+                return Yaml::parseFile($filename);
+            }
+        }
         return $result;
     }
 }
