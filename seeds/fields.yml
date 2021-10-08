@@ -49,6 +49,9 @@ fields:
         name: "DUT spécialité génie biologique"
 
   - name: "Sciences Humaines et Sociales"
+    diplomas:
+      - id: 1
+        name: "Licence mention psychologie"
   - name: "Droit, Économie et Gestion"
   - name: "Arts, Lettres et Langues"
   - name: "Compétences transversales"

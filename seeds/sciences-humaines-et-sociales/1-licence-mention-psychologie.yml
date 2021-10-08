@@ -1,4 +1,5 @@
-name: "Licence mention informatique"
+id: 1
+name: "Licence mention psychologie"
 description: "Ce parcours d’<strong>informatique générale</strong> permet d’hybrider les enseignements des domaines suivants : concepts informatiques, algorithmique et programmation, systèmes d’exploitation, outils et technologies Internet, bases de données. Il propose également une composante mathématique importante."
 years:
   - name: "1ère année"
