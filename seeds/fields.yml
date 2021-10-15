@@ -50,7 +50,7 @@ fields:
 
   - name: "Sciences Humaines et Sociales"
     diplomas:
-      - id: 1
+      - id: 24
         name: "Licence mention psychologie"
   - name: "Droit, Économie et Gestion"
   - name: "Arts, Lettres et Langues"
