@@ -328,7 +328,6 @@ years:
             url: "https://www.fun-campus.fr/fr/cours/web-semantique-et-web-de-donnees/"
       - name: "Systèmes et réseaux"
         resources:
-        resources:
           - name: "Réseaux de communication industriels"
             type: "Cours complet ou MOOC"
             volume: "20 chapitres"
@@ -349,8 +348,13 @@ years:
             type: "Cours complet ou MOOC"
             volume: "16h"
             url: "https://www.fun-campus.fr/fr/cours/objets-connectes-des-radiofrequences-aux-reseaux/"
-      - name: ""
+      - name: "Bases de données"
         resources:
+          - name: "Conception des bases de données. Langage SQL. Mise en œuvre avec Oracle"
+            type: "TD, études de cas"
+            volume: "4 TD – 13 TP"
+            url: "http://www.iutenligne.net/ressources/conception-des-bases-de-donnees-langage-sql-mise-en-oeuvre-avec-oracle.html"
+      - name: ""
         resources:
           - name: ""
             type: ""
