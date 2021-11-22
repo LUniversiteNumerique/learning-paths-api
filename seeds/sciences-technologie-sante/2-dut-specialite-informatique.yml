@@ -484,6 +484,25 @@ years:
             type: "TP, exercices, quiz"
             volume: "9 quiz"
             url: "http://www.iutenligne.net/ressources/serie-de-quiz-sur-le-droit-du-travail.html"
-
-
-
+      - name: "Anglais"
+        resources:
+          - name: "Anglais – Le monde du travail – CV, entretien et lettre de motivation"
+            type: "TP, exercices, quiz"
+            volume: "4 quiz"
+            url: "http://www.iutenligne.net/ressources/ensemble-de-quiz-anglais-le-monde-du-travail-cv-entretien-et-lettre-de-motivation.html?srid=1270&srl=product-footer"
+          - name: "Anglais technique pour l’Informatique"
+            type: "TP, exercices, quiz"
+            volume: "4 quiz"
+            url: "http://www.iutenligne.net/ressources/ensemble-de-quiz-anglais-technique-pour-l-informatique.html"
+          - name: "Anglais – Entraînement aux certifications – Reconnaître des énoncés erronés"
+            type: "TP, exercices, quiz"
+            volume: "1 quiz"
+            url: "http://www.iutenligne.net/ressources/quiz-anglais-entrainement-aux-certifications-reconnaitre-des-enonces-errones.html"
+          - name: "Conduite de réunion en anglais"
+            type: "Cours complet ou MOOC"
+            volume: "10h"
+            url: "https://www.fun-campus.fr/fr/cours/conduite-de-reunion-en-anglais/"
+          - name: "Unlock your english"
+            type: "Cours complet ou MOOC"
+            volume: "15h"
+            url: "https://www.fun-campus.fr/fr/cours/unlock-your-english-session-1/"
