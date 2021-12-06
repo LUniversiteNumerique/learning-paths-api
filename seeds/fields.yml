@@ -52,6 +52,8 @@ fields:
     diplomas:
       - id: 24
         name: "Licence mention psychologie"
+      - id: 25
+        name: "Licence mention philosophie"
   - name: "Droit, Économie et Gestion"
   - name: "Arts, Lettres et Langues"
   - name: "Compétences transversales"
