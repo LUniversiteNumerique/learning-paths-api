@@ -1,0 +1,767 @@
+id: 21
+name: "Licence mention chimie"
+description: |
+  Les ressources proposées ici permettent d’acquérir des <strong>bases théoriques et pratiques solides dans 
+  toutes les disciplines des sciences chimiques</strong>, accompagnées d’une bonne culture scientifique générale 
+  pour une poursuite d’études dans un master de chimie ou une école d’ingénieur.<br>
+  Tous les grands domaines scientifiques (mathématiques, informatique, physique, biologie) y sont abordés, tout en 
+  respectant une progression pédagogique de la première année plus généraliste jusqu’à la troisième plus spécialisée en chimie. 
+years:
+- name: "1ère année"
+  ue:
+  - name: "Programmation"
+    resources: 
+      - name: "Programmation C++ (2019)"
+        type: "Cours complet ou MOOC *"
+        volume: "40h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=225"
+      - name: "Programmation Python (2019)"
+        type: "Cours complet ou MOOC *"
+        volume: "40h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=222"
+      - name: "Algorithmique et programmation"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/algoprog/s00aaroot/aa00321/co/aa00321_web.html"
+      - name: "Java’s Cool"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2javascool.gforge.inria70/28.php"
+      - name: "Introduction à la programmation en assembleur"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2e-5.9-avignon70/assembleur/co/65_webUnisciel.html"
+      - name: "Apprendre à programmer avec des cartes"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/progcartes/co/_web.html"
+      - name: "OEF Petits tests de programmation"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U2/coding/oefprogramC70"
+      - name: "Projet C++ Robot"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/262.9-14170/61/39/39.html0id=2380400"
+  - name: "Suites et séries"
+    resources: 
+      - name: "L1 : Suites et séries"
+        type: "Cours complet ou MOOC *"
+        volume: "50h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=40"
+      - name: "Nombres réels, suites et fonctions"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/55/55/co/55.html"
+      - name: "Séries entières"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/series_ent/series_ent/co/series_ent.html"
+      - name: "Suites numériques"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/36/517-521-suites/co/517-521_webUnisciel.html"
+      - name: "Suites de nombres réels"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/46/47/SuitesNumeriques/co/SuitesNumeriques.html"
+      - name: "Suites et séries de fonctions "
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/suites_fonctions/suites_fonctions/co/suites_fonctions.html"
+  - name: "Logique et raisonnement"
+    resources: 
+      - name: "L1 : Logique et raisonnements"
+        type: "Cours complet ou MOOC *"
+        volume: "55h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=13"
+      - name: "Logique et langage des ensembles"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/43/43/co/43.html"
+      - name: "Logique et raisonnements – partie 1 : logique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2www.17-u.tv/23/20/chapitre_logique_et_raisonnements_partie_1_logique.10086"
+      - name: "Logique et raisonnements – partie 2 : raisonnements"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2www.17-u.tv/23/20/logique_et_raisonnements_partie_2_raisonnements.10087"
+      - name: "Notion d’ensemble"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/43/43_ch02/co/apprendre_ch2_01.html"
+      - name: "Cardinal d’un ensemble"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/43/43_ch09/co/apprendre_ch9.html"
+      - name: "Ensembles et applications"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/221.2470/65/ch_ensembles.pdf"
+      - name: "Logique, ensembles, raisonnements"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/221.2470/29/fic00002.pdf"
+      - name: "Logique, ensembles raisonnements (exercices et corrections filmées)"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2www.17-u.tv/themes/sciences_fondamentales/6/algebre/logique_ensemble_raisonnement_exercices"
+      - name: "Dénombrement "
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/221.2470/29/fic00005.pdf"
+  - name: "Algèbre linéaire"
+    resources: 
+      - name: "L1 : Algèbre linéaire"
+        type: "Cours complet ou MOOC *"
+        volume: "60h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=55"
+      - name: "Algèbre linéaire – calcul matriciel"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/calculmat1/calculmat1/co/calculmat1.html"
+      - name: "Réduction des matrices : diagonalisation des endomorphismes et des matrices"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/reducmat1/reducmat1/co/reducmat1.html"
+      - name: "Déterminants"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/determinant1/determinant1/co/determinant1.html"
+      - name: "Matrices"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/6/54/res/18_Matrices.pdf"
+      - name: "Réductions des endomorphismes"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/6/exos_algebre_lineaire_2a_pc/res/z-alg-4.pdf"
+      - name: "Systèmes linéaires à coefficients constants"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/56/56_ch02/co/apprendre_02.html"
+      - name: "Systèmes linéaires"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/59/59_ch05/co/apprendre_ch05.html"
+  - name: "Nombres complexes"
+    resources: 
+      - name: "L1 : Nombres réels & complexes"
+        type: "Cours complet ou MOOC *"
+        volume: "30h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=54"
+      - name: "Nombres complexes"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/36/511-14-nbr-complexes/co/511-14_webUnisciel.html"
+      - name: "Cardinal d’un ensemble – Le continu : les nombres complexes"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/43/43_ch09/co/apprendre_ch9_05.html"
+      - name: "Nombres complexes"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/221.2470/29/fic00001.pdf"
+      - name: "Exercices sur les nombres complexes"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/iel/exo_complexe/28.html"
+      - name: "Ensemble des nombres complexes"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/6/algebre_revisions/06_Nombres_complexes/co/06_Nombres_complexes_web.html"
+      - name: "Exercices d’algèbre"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/6/exos_ats_algebre/co/27.html"
+      - name: "Exercices d’algèbre"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/6/exos_algebre_ecs/co/27.html"
+  - name: "Equations différentielles"
+    resources: 
+      - name: "Équations différentielles"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/46/47/Eq_Diff/co/Eq_Diff_01.html"
+      - name: "Équations différentielles"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/45/45/co/45.html"
+      - name: "Techniques de résolution d’équations différentielles"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/iel/45/28.html"
+      - name: "Systèmes différentiels"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/56/56_ch01/co/56_ch01.html"
+      - name: "Équations différentielles"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/221.2470/29/fic00016.pdf"
+      - name: "Travaux pratiques : une équation linéaire du premier ordre"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/45/45_ch07/co/observer_TP_03.html"
+      - name: "Travaux pratiques : Une équation linéaire du second ordre"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/45/45_ch07/co/observer_TP_04.html"
+      - name: "Équations différentielles"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/6/66/13_Equations_differentielles/co/13_Equations_differentielles_web.html"
+      - name: "Exercices de calcul différentiel "
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/6/exos_calculdiff_2a_pc/co/27.html"
+  - name: "Géométrie"
+    resources: 
+      - name: "Géométrie analytique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/6/59/59/co/59.html"
+      - name: "Produits scalaires dans l’espace – droites et plans dans l’espace"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/36/514-113a-produit-scalaire/co/514-113a_webUnisciel.html"
+      - name: "Sections planes de surfaces"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/36/514-113b-sections-planes/co/514-113b_webUnisciel.html"
+      - name: "Similitudes directes, similitudes indirectes"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/36/514-11-similitudes/co/514-11_webUnisciel.html"
+      - name: "Cours de géométrie élémentaire"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/6/geometrie/co/27.html"
+      - name: "Rappels de géométrie, Courbes et surfaces"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/25.4/46/47/Courb_Surf/co/Courb_Surf_01.html"
+      - name: "Géométrie du plan"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/6/exos_ats_geometrie/co/27.html"
+      - name: "Sous-variétés"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/221.2470/29/fic00051.pdf"
+  - name: "Optique géométrique"
+    resources: 
+      - name: "L1: Optique Géométrique"
+        type: "Cours complet ou MOOC *"
+        volume: "50h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=9"
+      - name: "Optique géométrique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/25/optigeo/optigeo/co/optigeo.html"
+      - name: "Bases de l’optique géométrique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/38/25/bases-optique/co/Optique_web.html"
+      - name: "Bases de l’optique géométrique"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/25/optique_geo_1a_mpsi/co/27.html"
+      - name: "Optique géométrique"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/25/optique_geo_1a_pcsi_og/co/27.html"
+      - name: "La couleur"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2culturesciences25.ens-1470/XML/db/cs25/63/LOM_CSP_Couleur.xml"
+      - name: "Le principe de Fermat : un principe variationnel"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2prn1.9-3070/35/PRN/res_nlp/NLP_E_M03_G03_07/co/NLP_E_M03_G03_07.html"
+      - name: "OEF optique"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=H5/physics/oefoptics70"
+  - name: "Mécanique du point"
+    resources: 
+      - name: "L1: Mécanique du point"
+        type: "Cours complet ou MOOC *"
+        volume: "50h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=17"
+      - name: "Mécanique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/25/meca/meca/co/meca.html"
+      - name: "Mécanique"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/25.4/38/25/mecanique/co/Bloc4_web.html"
+      - name: "Mécanique 1"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/25/meca_mpsi/co/27.html"
+      - name: "Cinématique du point. (Mécanique I : forces, champs, énergie)"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2res-nlp.9-3070/NLP_C_M01_G01/co/NLP_C_M01_G01_web.html"
+      - name: "TD Mécanique"
+        type: "TD, étude de cas"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/25/td_meca/co/27.html"
+      - name: "Mesure d’un moment d’inertie"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2prn1.9-3070/35/PRN/res_nlp/NLP_E_M02_G01_12/co/NLP_E_M02_G01_12_web.html"
+      - name: "Calcul des moments d’inertie de différents solides simples"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2prn1.9-3070/35/PRN/res_nlp/NLP_E_M02_G01_14/co/NLP_E_M02_G01_14_web.html"
+      - name: "Mécanique des solides"
+        type: "Grain ou éléments de cours"
+        volume: 
+        url: "https://unisciel.org/r/2phymain.4/category/mecanique-des-solides/"
+      - name: "La Physique animée"
+        type: "Grain ou éléments de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.17-u.tv/58/20/la_25_animee"
+  - name: "Electricité/électrocinétique/électronique"
+    resources: 
+      - name: "L1: Électrocinétique en régime continu permanent"
+        type: "Cours complet ou MOOC *"
+        volume: "40h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=12"
+      - name: "L1: Électrocinétique en régime sinusoïdal permanent"
+        type: "Cours complet ou MOOC *"
+        volume: "35h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=16"
+      - name: "Traitement du signal"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/TraitementDuSignal/Introduction/co/32_Introduction_1.html"
+      - name: "TP d’électronique"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/25/electronique_1a_pcsi/co/27.html"
+      - name: "TP d’électronique"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/25/electronique_2a_pc/co/ch00_27_web.html"
+  - name: "Etat de la matière"
+    resources: 
+      - name: "L1: Structure microscopique de la matière"
+        type: "Cours complet ou MOOC *"
+        volume: "50h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=29"
+      - name: "Structure microscopique de la matière"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/51/51/co/51.html"
+      - name: "Connaissances de bases en chimie"
+        type: "Grains ou éléments de cours"
+        volume: 
+        url: "https://unisciel.org/r/25.4/38/15/savoir-base/co/Bloc1_15_web.html"
+      - name: "Structures chimiques carbonées"
+        type: "Grains ou éléments de cours "
+        volume: 
+        url: "https://unisciel.org/r/25.4/38/15/structure-carbone/co/Bloc_2_15_web.html"
+  - name: "Chimie des solutions"
+    resources: 
+      - name: "L1: Chimie en solution aqueuse"
+        type: "Cours complet ou MOOC *"
+        volume: "50h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=25"
+      - name: "La chimie par le web – La chimie en solution"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/05-60-en-57/co/05-60_en_57_web.html"
+      - name: "Chimie en solution aqueuse"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/67/67/co/67.html"
+      - name: "Trilogique sem 11 – Introduction à la chimie des solutions 1"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=1271section=11"
+      - name: "Trilogique sem 12 – Acides et bases"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=1271section=12"
+      - name: "Exercices relatifs au calcul de pH des solutions aqueuses"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/05-60-en-57/co/32_05-60_en_57_16.html"
+      - name: "Exercices dédiés aux complexes en solution aqueuse"
+        type: "TP, exercices, quiz "
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/05-60-en-57/co/32_05-60_en_57_23.html"
+      - name: "Videochem: bonnes pratiques expérimentales au labo de chimie"
+        type: "Grains ou éléments de cours "
+        volume: 
+        url: "https://unisciel.org/r/2www.17-u.tv/58/20/23chem"
+  - name: "Anglais scientifique"
+    resources: 
+      - name: "Lexico"
+        type: "Grains ou éléments de cours"
+        volume: 
+        url: "https://unisciel.org/r/248.4/"
+  - name: "Méthodologie"
+    resources: 
+      - name: "Méthodologie de travail universitaire pour étudiant"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=144"
+      - name: "Enquête Darwin, se former à la méthodologie d’analyse de documents iconographiques"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2e-65.9-lr70/UNT/darwin/"
+      - name: "Appui pour apprendre à apprendre "
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2ics.utc70/appuis_apprendre/co/apprendre.html"
+  - name: "Orthographe scientifique"
+    resources: 
+      - name: "Orthographe scientifique "
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2orthographe.4/"
+
+- name: "2ère année"
+  ue:
+  - name: "Atomistique"
+    resources: 
+      - name: "La chimie par le web – Atomistique (Structure et propriétés des atomes)"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/01-Atomistique/co/01-Atomistique_web.html"
+      - name: "Structure et propriétés de l’atome"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/51/structureAtome/co/structureAtome_web.html"
+      - name: "Les atomes polyélectroniques"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/51/51_ch04/co/51_ch04.html"
+      - name: "Orbitales atomiques"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/modelisationII/modelisationII_ch02/co/modelisationII_ch02_1.html"
+      - name: "Propriétés atomiques"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/elementsp1/elementsp1_ch01/co/apprendre_01.html"
+  - name: "Liaison chimique"
+    resources: 
+      - name: "La chimie par le web – La liaison chimique"
+        type: "Module"
+        volume: "45h"
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/02-Liaison_chimique/co/02-Liaison-chimique_web.html"
+      - name: "Les composés de coordination : la liaison chimique dans les complexes"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/elementsd1/elementsd1_ch02/co/Apprendre_ch2_1.html"
+      - name: "La liaison covalente dans H2"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/51/51_ch06/co/51_ch06.html"
+      - name: "Nature des liaisons"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/elementsp1/elementsp1_ch01/co/elementsp1_ch01_1.html"
+      - name: "Trilogique sem 9 – Liaisons chimiques – Introduction"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_9_liaisons_chimiques_introduction.42093"
+      - name: "Trilogique sem 9 – Liaisons chimiques – Hybridation"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_9_liaisons_chimiques_hybridation.42103"
+  - name: "Biochimie"
+    resources: 
+      - name: "Biochimie"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/37/bio151/bio151/co/bio151.html"
+      - name: "Le métabolisme"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/Metabo/28.html"
+      - name: "Méthodes physiques de séparation et d’analyse et méthodes   de dosage des biomolécules"
+        type: " TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/68/28.html"
+      - name: "Extraction et mise en évidence du glycogène"
+        type: " TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/ATP/glyco.htm"
+      - name: "Trilogique sem 2 – Structure et propriété des acides   aminés – Liaisons covalentes -Peptidiques acides aminés"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_2_structure_et_propriete_des_acides_amines_liaisons_covalentes_peptidiques_acide_amines.42117"
+      - name: "Trilogique sem 2 – Structure et propriété des acides   aminés – Chiralité des acides animés"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_2_structure_et_propriete_des_acides_amine_chiralite_acides_amines.42151"
+      - name: "Trilogique sem 3 – Structure et propriété des acides   aminés – Acidité acide animés"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_2_structure_et_propriete_des_acides_amines_acidite_acide_amines.42159"
+      - name: "Trilogique sem 7 – Structure des glucides"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_7_structures_des_glucides.42053"
+      - name: "Trilogique sem 5 – Electrophèse – Vidéo d’introduction"
+        type: "Grain ou élément de cours *"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_5_electrophorese_23_d_introduction.42129"
+      - name: "Trilogique sem 5 – Electrophèse – Les cas réel"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_5_electrophorese_le_cas_reel.42125"
+      - name: "Trilogique sem 5 – Electrophèse – Les cas idéal"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_5_eletrophorese_le_cas_ideal.42131"
+      - name: "Trilogique sem 6 – Structure et propriété des lipides – La   synthèse des lipides"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_6_structure_et_propriete_des_lipides_la_synthese_des_lipides.42115"
+  - name: "Chimie inorganique"
+    resources: 
+      - name: "Chimie des éléments p"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/elementsp1/elementsp1/co/elementsp1.html"
+      - name: "Chimie des éléments d"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/elementsd1/elementsd1/co/elementsd1.html"
+      - name: "Nomenclature des composés inorganiques"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/01-Atomistique/co/32_01-Atomistique_7.html"
+  - name: "Chimie organique"
+    resources: 
+      - name: "Chimie organique L2"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/L2_15_organique/co/L2_15_organique_web.html"
+      - name: "Introduction à la nomenclature en chimie organique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/nomen/nomen/co/nomen.html"
+      - name: "Stéréo-isomérie"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/stereoisomerie1/stereoisomerie1/co/stereoisomerie1.html"
+      - name: "Effets électroniques"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/effelec1/effelec1/co/effelec1.html"
+      - name: "Chimie des éléments p"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/elementsp1/elementsp1/co/elementsp1.html"
+      - name: "La modélisation moléculaire"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/modelisation/modelisation/co/modelisation.html"
+      - name: "Les molécules"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/51/51_ch05/co/apprendre_01.html"
+      - name: "Représentation des molécules"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/nomen/nomen_ch01/co/apprendre_ch1_02.html"
+      - name: "Videochem: bonnes pratiques expérimentales au labo de   chimie"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.17-u.tv/58/20/23chem"
+      - name: "Les groupes fonctionnels"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.youtube.com/watch0v=KEjcqf209I4"
+      - name: "Formules des molécules organiques"
+        type: "Grain ou élément de cours "
+        volume: 
+        url: "https://unisciel.org/r/2www.youtube.com/watch0v=cT9KWXMDhoQ"
+  - name: "Cristallographie"
+    resources: 
+      - name: "La chimie par le web – Chimie de l’état solide (L’état   solide périodique)"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/06-Etat_solide/co/06-Etat_solide_web.html"
+      - name: "Structure des solides"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/51/51_ch11/co/apprendre_01.html"
+      - name: "Atlas des formes cristallines"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/25/02/cristallo/atlas.pdf"
+      - name: "Travaux pratiques de cristallographie 1 : « structure   cubique simple du polonium »"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/cristallo/tp1-cubiquesimple/co/Cristallographie_web.html"
+      - name: "Travaux pratiques de cristallographie 2 : « structure   cubique centrée du fer »"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/cristallo/tp2-cubiquecentre/co/Cristallographie_web.html"
+      - name: "Travaux pratiques de cristallographie 3 : « structure   cubique à face centrée du cuivre »"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/cristallo/tp3-cubiquefacecentree/co/Cristallographie_web.html"
+      - name: "Travaux pratiques de cristallographie 4 : « structure   hexagonale compacte du Cobalt »"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.4/cristallo/tp4-hexagonalcompact/co/Cristallographie_web.html"
+      - name: "La chimie par le web – Cristallographie"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/08-Cristallographie/28.html"
+  - name: "Oxydoréduction"
+    resources: 
+      - name: "La chimie par le web – La chimie en solution : l’oxydo-réduction"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/05-60-en-57/co/32_05-60_en_57_5.html"
+      - name: "L’oxydo-réduction"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/67/67_ch06/co/apprendre_ch6_01.html"
+      - name: "Oxydo-réduction : Exercices"
+        type: "TP, exercices, quiz"
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/05-60-en-57/co/32_05-60_en_57_30.html"
+      - name: "Les dosages Redox"
+        type: "Grain ou élément de cours "
+        volume: 
+        url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/05-60-en-57/co/32_05-60_en_57_29.html"
+      - name: "Trilogique sem 11 – Introduction à la chimie des solutions – Réactions d’oxydo-réduction"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/3www.17-u.tv/23/20/trilogique_sem_11_introduction_a_la_15_des_57s_reaction_d_oxydo_reduction.42111"
+  - name: "Thermodynamique et cinétique chimique"
+    resources: 
+      - name: "L2: Thermodynamique"
+        type: " Cours complet ou MOOC *"
+        volume: "50h"
+        url: "https://unisciel.org/r/3socles3.4/11/12.php0id=27"
+      - name: "Cinétique chimique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/cinet/cinet/co/cinet.html"
+      - name: "Thermodynamique chimique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/chimther/chimther/co/chimther.html"
+      - name: "La chimie par le web – Réaction chimique – Thermodynamique (La réaction chimique, thermodynamique chimique, cinétique chimique)"
+        type: "Module"
+        volume: 
+        url: "http://ressources.univ-lemans.fr/AccesLibre/UM/Pedago/chimie/01/03-Reaction_chimique/co/03-Reaction_chimique_web.html"
+      - name: "Cinétique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/38/15/cinetique/co/Bloc5_15_web.html"
+      - name: "Thermodynamique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/15/thermodynamique/co/27.html"
+      - name: "Étude des équilibres chimiques : Comparaison équilibre hétérogène et homogène en fonction de nO,A et B"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/chimther/chimther_ch05/co/simuler_ch5_06.html"
+      - name: "Équilibres chimiques : simulateur général permettant l’étude de n’importe quel équilibre"
+        type: "Grain ou élément de cours "
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/chimther/chimther_ch05/co/simuler_ch5_07.html"
+  - name: "Chimie quantique"
+    resources: 
+      - name: "Chimie quantique"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/modelisationII/modelisationII/co/modelisationII.html"
+  - name: "Programmation"
+    resources: 
+      - name: "Pharo "
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/25.4/pharo/WebPortal/co/50.html"
+  - name: "Anglais scientifique"
+    resources: 
+      - name: "Lexico "
+        type: "Grain ou élément de cours "
+        volume: 
+        url: "https://unisciel.org/r/248.4/"
+
+- name: "3ère année"
+  ue:
+  - name: "Conception et analyse des matériaux"
+    resources: 
+      - name: "Ressources pédagogiques en polymères"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/262.9-14170/61/39/39.html0id=1454273"
+      - name: "Les polymères superabsorbants"
+        type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2culturesciences25.ens-1470/XML/db/cs25/63/LOM_CSP_psa.xml"
+      - name: "Buckyballes, graphènes et nanotubes"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.youtube.com/watch0v=hitq4dglyNY"
+  - name: "Chimie analytique"
+    resources: 
+      - name: "Les spectroscopies"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/spectro/spectro/co/spectro.html"
+      - name: "Techniques spectroscopiques – Spectrométrie UV-visible"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/68/spectro/C1.html"
+      - name: "Techniques spectroscopiques – Spectrométrie IR / spectrofluorométrie"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/68/spectro/C2.html"
+      - name: "Techniques spectroscopiques – Spectrométrie de masse"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/68/spectro/C4.html"
+      - name: "Techniques chromatographiques – Généralités"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/68/chromato/A1.html"
+      - name: "Techniques chromatographiques – Chromatographie en phase   gazeuse"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/68/chromato/A3.html"
+      - name: "Techniques chromatographiques – Chromatographie liquide   (LC – HPLC)"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/68/chromato/A4.html"
+      - name: "Techniques chromatographiques – La chromatographie liquide   : mécanismes et modalités – Les différents modes de chromatographie liquide"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/68/chromato/A62.html"
+      - name: "Techniques spectroscopiques – Spectrométrie de résonnance   magnétique nucléaire (RMN)"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2www.snv.1970/26/68/spectro/C5.html"
+      - name: "Multispectroscopie"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2uel.4/15/multispectro/multispectro_ch01/co/multispectro_ch01_1.html"
+      - name: "Laser et molécules : de la spectroscopie à la femtochimie"
+        type: "Grain ou élément de cours"
+        volume: 
+        url: "https://unisciel.org/r/2culturesciences25.ens-1470/XML/db/cs25/63/LOM_CSP_conference-PP2010-laser-molecules-spectroscopie-femto15-Jouvet.xml"
+  - name: "Anglais scientifique"
+    resources: 
+      - name: "Lexico"
+        type: "Grain ou élément de cours "
+        volume: 
+        url: "https://unisciel.org/r/248.4/"
