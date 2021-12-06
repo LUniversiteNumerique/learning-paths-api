@@ -16,25 +16,25 @@ fields:
       - id: 7
         name: "Licence mention sciences et technologie"
       - id: 8
-        name: "DUT spécialité GEII (Génie Électrique et Informatique Industrielle)"
+        name: "DUT spécialité GEII"
       - id: 9
-        name: "DUT spécialité Hygiène Sécurité Environnement"
+        name: "DUT spécialité HSE"
       - id: 10
-        name: "DUT spécialité métiers du multimédia et de l’Internet"
+        name: "DUT spécialité MMI"
       - id: 11
-        name: "DUT spécialité génie civil – construction durable"
+        name: "DUT spécialité GCCD"
       - id: 12
         name: "DUT spécialité mesures physiques"
       - id: 13
         name: "Licence mention sciences de la vie"
       - id: 14
-        name: "Licence mention mathématiques et informatique appliquées aux sciences humaines et sociales"
+        name: "Licence mention MIASHS"
       - id: 15
-        name: "DUT spécialité génie thermique et énergie"
+        name: "DUT spécialité GTE"
       - id: 16
         name: "Licence mention physique"
       - id: 17
-        name: "Licence mention sciences de la vie et de la terre"
+        name: "Licence mention SVT"
       - id: 18
         name: "Licence mention sciences de la terre"
       - id: 19
@@ -44,7 +44,7 @@ fields:
       - id: 21
         name: "Licence mention chimie"
       - id: 22
-        name: "Licence mention électronique, énergie électrique, automatique"
+        name: "Licence mention EEA"
       - id: 23
         name: "DUT spécialité génie biologique"
 
