@@ -1,6 +1,11 @@
 id: 3
 name: "DUT spécialité réseaux et télécoms"
-description: "Le titulaire de ce DUT peut constituer ou analyser un cahier des charges, élaborer ou choisir des solutions techniques et des produits. Il peut aussi installer et mettre au point des équipements (réseaux, environnements applicatifs, systèmes d’exploitation) et assurer leur maintenance. Il peut s’agir de <strong>réseaux informatiques classiques, à intégration de services, mobiles ou autres</strong>."
+description: |
+  Le titulaire de ce DUT peut constituer ou analyser un cahier des charges, 
+  élaborer ou choisir des solutions techniques et des produits. Il peut aussi 
+  installer et mettre au point des équipements (réseaux, environnements applicatifs, 
+  systèmes d’exploitation) et assurer leur maintenance. Il peut s’agir de 
+  <strong>réseaux informatiques classiques, à intégration de services, mobiles ou autres</strong>.
 years:
 - name: "1ère année"
   ue:

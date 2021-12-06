@@ -1,6 +1,11 @@
 id: 5
 name: "Licence mention mécanique"
-description: "Ce parcours type apporte des ressources pour hybrider cette formation principalement orientée vers la modélisation, la simulation numérique et l’expérimentation en mécanique. Elle met l’accent sur un ensemble de connaissances fondamentales en mécanique, mathématiques, informatique, physique, nécessaires pour assurer la pluridisciplinarité qui caractérise cette science du mouvement."
+description: |
+  Ce parcours type apporte des ressources pour hybrider cette formation principalement orientée 
+  vers la modélisation, la simulation numérique et l’expérimentation en mécanique. Elle met l’accent 
+  sur un ensemble de <strong>connaissances fondamentales en mécanique, mathématiques, informatique, 
+  physique</strong>, nécessaires pour assurer la <strong>pluridisciplinarité qui caractérise cette 
+  science du mouvement</strong>.
 years:
 - name: "1ère année"
   ue:

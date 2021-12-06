@@ -1,6 +1,11 @@
 id: 4
 name: "Licence mention sciences pour l’ingénieur"
-description: "Ce parcours est composé de contenus pluridisciplinaires ayant pour objectif l’acquisition d’un <strong>tronc commun dans lequel s’articulent mathématiques, physique et informatique</strong>. Elle permet également de former les étudiants en sciences pour l’ingénieur dans les domaines de l’électronique, des matériaux, de la mécanique etc."
+description: |
+  Ce parcours est composé de contenus pluridisciplinaires ayant pour objectif 
+  l’acquisition d’un <strong>tronc commun dans lequel s’articulent mathématiques, 
+  physique et informatique</strong>. Elle permet également de former les étudiants 
+  en sciences pour l’ingénieur dans les domaines de l’électronique, des matériaux, 
+  de la mécanique etc.
 years:
 - name: "1ère année"
   ue:

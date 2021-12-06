@@ -1,11 +1,11 @@
 id: 2
 name: "DUT spécialité informatique"
 description: |
-  "Ce DUT forme des assistants ingénieurs et des chefs de projet en <strong>informatique de gestion et en informatique 
+  Ce DUT forme des assistants ingénieurs et des chefs de projet en <strong>informatique de gestion et en informatique 
   industrielle</strong>. Immédiatement opérationnels en développement logiciel et matériel, ils participent à la conception, 
   la réalisation et la mise en œuvre de systèmes informatiques en fonction de cahiers des charges. Ils sont capables 
   de répondre aux besoins en matière d’administration de réseaux, de conception et de réalisation de programmes, 
-  d’assistance technique, de gestion de bases de données."
+  d’assistance technique, de gestion de bases de données.
 years:
   - name: "1ère année"
     ue:

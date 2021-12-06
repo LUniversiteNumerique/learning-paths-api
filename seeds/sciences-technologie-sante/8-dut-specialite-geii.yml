@@ -1,6 +1,11 @@
 id: 8
 name: "DUT spécialité GEII (Génie Électrique et Informatique Industrielle)"
-description: "Ce parcours propose des ressources pour enseigner le génie électrique, qui s’intéresse à la production de l’énergie électrique, à sa distribution et à son utilisation. Il met aussi à disposition des contenus en informatique industrielle qui concerne le traitement numérique de l’information, et aux systèmes qui réalisent ce traitement. Les technologies des domaines du génie électrique et de l’informatique industrielle (GEII) sont au cœur de la vie quotidienne. On les trouve dans les équipements de la maison jusqu’aux moyens de transports."
+description: |
+  Ce parcours propose des ressources pour enseigner le génie électrique, qui s’intéresse à la <strong>production 
+  de l’énergie électrique</strong>, à sa distribution et à son utilisation. Il met aussi à disposition des contenus 
+  en informatique industrielle qui concerne le <strong>traitement numérique de l’information</strong>, et aux systèmes qui 
+  réalisent ce traitement. Les technologies des domaines du génie électrique et de l’informatique industrielle 
+  (GEII) sont au cœur de la vie quotidienne. On les trouve dans les équipements de la maison jusqu’aux moyens de transports.
 years:
 - name: "1ère année"
   ue:

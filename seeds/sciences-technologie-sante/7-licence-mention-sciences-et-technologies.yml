@@ -1,6 +1,9 @@
 id: 7
 name: "Licence mention sciences et technologie"
-description: "Le parcours proposé ici permet d’hybrider cette licence au caractère généraliste qui réunit de nombreuses disciplines scientifiques avec une spécialisation progressive permettant aux étudiants de préciser leur orientation et leur projet professionnel (ici Télécommunications et Réseaux Informatiques)."
+description: |
+  Le parcours proposé ici permet d’hybrider cette licence au caractère généraliste qui réunit de 
+  <strong>nombreuses disciplines scientifiques avec une spécialisation progressive</strong> permettant aux étudiants 
+  de préciser leur orientation et leur projet professionnel (ici Télécommunications et Réseaux Informatiques).
 years:
 - name: "1ère année"
   ue:

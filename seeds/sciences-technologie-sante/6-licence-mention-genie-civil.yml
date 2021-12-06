@@ -1,6 +1,9 @@
 id: 6
 name: "Licence mention génie civil"
-description: "Ce parcours type propose des ressources éducatives libres pour préparer aux métiers du bâtiment et des travaux publics. Elle forme les étudiants avec une approche scientifique pluridisciplinaire en première année et une spécialisation ensuite."
+description: |
+  Ce parcours type propose des ressources éducatives libres pour préparer aux <strong>métiers du 
+  bâtiment et des travaux publics</strong>. Elle forme les étudiants avec une approche scientifique 
+  pluridisciplinaire en première année et une spécialisation ensuite.
 years:
 - name: "1ère année"
   ue:
