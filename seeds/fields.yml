@@ -82,4 +82,6 @@ fields:
         name: "Licence mention humanités"
       - id: 37
         name: "Licence mention arts"
+      - id: 38
+        name: "Licence mention sciences du langage"
   - name: "Compétences transversales"
