@@ -68,5 +68,7 @@ fields:
         name: "Licence mention gestion"
       - id: 31
         name: "DUT spécialité GEA"
+      - id: 32
+        name: "DUT spécialité techniques de commercialisation"
   - name: "Arts, Lettres et Langues"
   - name: "Compétences transversales"
