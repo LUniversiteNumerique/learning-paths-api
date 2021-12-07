@@ -63,5 +63,8 @@ fields:
       - id: 29
         name: "Licence mention sciences sociales"
   - name: "Droit, Économie et Gestion"
+    diplomas:
+      - id: 30
+        name: "Licence mention gestion"
   - name: "Arts, Lettres et Langues"
   - name: "Compétences transversales"
