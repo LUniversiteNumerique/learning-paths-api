@@ -84,4 +84,6 @@ fields:
         name: "Licence mention arts"
       - id: 38
         name: "Licence mention sciences du langage"
+      - id: 39
+        name: "Licence mention arts du spectacle"
   - name: "Compétences transversales"
