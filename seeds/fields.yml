@@ -74,5 +74,7 @@ fields:
         name: "DUT spécialités carrières juridiques"
       - id: 34
         name: "DUT spécialité gestion logistique et transport"
+      - id: 35
+        name: "Licence mention droit"
   - name: "Arts, Lettres et Langues"
   - name: "Compétences transversales"
