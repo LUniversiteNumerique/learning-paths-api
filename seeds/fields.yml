@@ -66,5 +66,7 @@ fields:
     diplomas:
       - id: 30
         name: "Licence mention gestion"
+      - id: 31
+        name: "DUT spécialité GEA"
   - name: "Arts, Lettres et Langues"
   - name: "Compétences transversales"
