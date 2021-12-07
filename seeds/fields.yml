@@ -80,4 +80,6 @@ fields:
     diplomas:
       - id: 36
         name: "Licence mention humanités"
+      - id: 37
+        name: "Licence mention arts"
   - name: "Compétences transversales"
