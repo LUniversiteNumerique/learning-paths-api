@@ -77,4 +77,7 @@ fields:
       - id: 35
         name: "Licence mention droit"
   - name: "Arts, Lettres et Langues"
+    diplomas:
+      - id: 36
+        name: "Licence mention humanités"
   - name: "Compétences transversales"
