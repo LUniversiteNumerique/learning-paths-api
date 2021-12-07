@@ -70,5 +70,7 @@ fields:
         name: "DUT spécialité GEA"
       - id: 32
         name: "DUT spécialité techniques de commercialisation"
+      - id: 33
+        name: "DUT spécialités carrières juridiques"
   - name: "Arts, Lettres et Langues"
   - name: "Compétences transversales"
