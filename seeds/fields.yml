@@ -60,6 +60,8 @@ fields:
         name: "Licence mention géographie et aménagement"
       - id: 28
         name: "Licence mention histoire"
+      - id: 29
+        name: "Licence mention sciences sociales"
   - name: "Droit, Économie et Gestion"
   - name: "Arts, Lettres et Langues"
   - name: "Compétences transversales"
