@@ -72,5 +72,7 @@ fields:
         name: "DUT spécialité techniques de commercialisation"
       - id: 33
         name: "DUT spécialités carrières juridiques"
+      - id: 34
+        name: "DUT spécialité gestion logistique et transport"
   - name: "Arts, Lettres et Langues"
   - name: "Compétences transversales"
