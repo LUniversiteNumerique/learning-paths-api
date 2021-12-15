@@ -96,3 +96,5 @@ fields:
         name: "Français écrit"
       - id: 43
         name: "Langues étrangères"
+      - id: 44
+        name: "Culture numérique"

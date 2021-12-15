@@ -4,7 +4,7 @@ description: |
   Les ressources et formations listées sont utilisées dans le cadre d’enseignements ou en auto-formation 
   pour <strong>développer les compétences en langues vivantes étrangères</strong> des étudiants.
 years:
-- name: "Voir la liste"
+- name: "Voir le parcours"
   ue:
   - name: "Anglais"
     resources: 
