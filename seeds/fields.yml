@@ -94,3 +94,5 @@ fields:
         name: "Méthodologie"
       - id: 42
         name: "Français écrit"
+      - id: 43
+        name: "Langues étrangères"
