@@ -89,3 +89,8 @@ fields:
       - id: 40
         name: "Licence mention lettres"
   - name: "Compétences transversales"
+    diplomas:
+      - id: 41
+        name: "Méthodologie"
+      - id: 42
+        name: "Français écrit"

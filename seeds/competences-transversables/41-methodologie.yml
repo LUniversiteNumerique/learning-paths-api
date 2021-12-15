@@ -5,8 +5,14 @@ description: |
   et former les étudiants à <strong>la méthodologie du travail universitaire</strong>.
 resources: 
   - name: "Tests de positionnement transversaux"
+    type:
+    volume:
     url: "http://www.uoh.fr/front/notice?id=3743ecf2-59d8-4433-b14f-83d5b53e8053"
   - name: "Cours complet de méthodologie de travail universitaire"
+    type:
+    volume:
     url: "https://socles3.unisciel.fr/course/view.php?id=144"
   - name: "Méthodologie documentaire"
+    type:
+    volume:
     url: "http://www.uoh.fr/front/notice?id=88ff5ffe-67a2-484e-9f3f-ffc4ffd62d21"

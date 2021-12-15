@@ -1,0 +1,23 @@
+id: 42
+name: "Français écrit"
+description: |
+  Les contenus suivants sont utilisés par les établissements partenaires du projet 
+  <a href="https://ecriplus.fr/" target="_blank" alt="https://ecriplus.fr">écri+</a> 
+  dans la cadre de formations à distance accompagnées par du tutorat (enseignant et/ou étudiant).
+resources: 
+  - name: "J’améliore ma maîtrise du français"
+    type: "33 modules"
+    volume: "26 heures"
+    url: "http://www.uoh.fr/front/notice?id=16aad467-2aee-4a70-9281-2e36280dd775"
+  - name: "Améliorer ses écrits"
+    type: "26 modules"
+    volume: "20 heures"
+    url: "http://www.uoh.fr/front/notice?id=dccb09dd-5636-47d8-823a-18bc305a4adc"
+  - name: "Renforcer ses compétences orthographiques"
+    type: "MOOC"
+    volume: "8 heures"
+    url: "https://www.fun-campus.fr/fr/cours/renforcer-ses-competences-orthographiques/"
+  - name: "Tests de positionnement"
+    type: "réservés aux partenaires de l’UOH"
+    volume:
+    url: "http://www.uoh.fr/front/notice?id=2b30ec3f-14a4-4af3-a21f-5ec6f708332f"
