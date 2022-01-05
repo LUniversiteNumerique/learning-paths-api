@@ -32,4 +32,36 @@ class LearningPathApi {
         }
         return $result;
     }
+
+    public function filterData($id) {
+        $result = new \stdClass();
+        $result = array();
+        $files = glob(__DIR__ . '/../seeds/**/*.yml');
+        
+        foreach($files as $filename) {
+            $parts = explode("/", $filename);
+            $fileId = explode("-", $parts[count($parts)-1])[0];
+            if (is_numeric($fileId) && $fileId === $id) {
+                $data = Yaml::parseFile($filename);
+                $filteredResults = $data;
+
+                foreach ($filteredResults['years'] as &$year) {
+                    foreach ($year['ue'] as &$ue) {
+                        if (isset($ue['resources'])) {
+                            $filtered = array_filter($ue['resources'], function($obj) {
+                                if ($obj['type'] != 'Cours complet ou MOOC') {
+                                    return false;
+                                }
+                                return true;
+                            });
+                            $ue['resources'] = $filtered;
+                        }
+                    }
+                }
+
+                return $filteredResults;
+            }
+        }
+        return $result;
+    }
 }
