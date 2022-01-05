@@ -11,20 +11,20 @@
  * Version:           1.0.0
 */
 
-require_once 'src/models/diploma.php';
+require_once 'src/api.php';
 
 register_activation_hook(__FILE__, 'learningpathsapi_activate');
 register_deactivation_hook(__FILE__, 'learningpathsapi_deactivate');
 register_uninstall_hook(__FILE__, 'learningpathsapi_uninstall');
 
 function learningpathsapi_get_fields() {
-  $diplomaModel = new Diploma();
+  $diplomaModel = new LearningPathApi();
   return $diplomaModel->getFields();
 }
 
 function learningpathsapi_get_data($data) {
   $diplomaId = $data['id'];
-  $diplomaModel = new Diploma();
+  $diplomaModel = new LearningPathApi();
   return $diplomaModel->getData($diplomaId);
 }
 
