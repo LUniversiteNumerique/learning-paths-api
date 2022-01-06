@@ -33,7 +33,7 @@ class LearningPathApi {
         return $result;
     }
 
-    public function filterData($id) {
+    public function filterData($id, $type) {
         $result = new \stdClass();
         $result = array();
         $files = glob(__DIR__ . '/../seeds/**/*.yml');
@@ -49,7 +49,7 @@ class LearningPathApi {
                     foreach ($year['ue'] as &$ue) {
                         if (isset($ue['resources'])) {
                             $filtered = array_filter($ue['resources'], function($obj) {
-                                if ($obj['type'] != 'Cours complet ou MOOC') {
+                                if ($obj['type'] != $type) {
                                     return false;
                                 }
                                 return true;
