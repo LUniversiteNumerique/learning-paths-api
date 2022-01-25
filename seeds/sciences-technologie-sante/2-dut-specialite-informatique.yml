@@ -285,7 +285,6 @@ years:
     ue:
       - name: "Algorithmique et programmation"
         resources:
-        resources:
           - name: "Décodeur RFID"
             type: "Module"
             volume: "12h"
