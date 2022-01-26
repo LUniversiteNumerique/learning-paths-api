@@ -24,10 +24,10 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/algoprog/s00aaroot/aa00321/co/aa00321_web.html"
-      - name: "Java’s Cool"
+      - name: "Java’s Cool-Proglets"
         type: "Module"
         volume: 
-        url: "https://unisciel.org/r/2javascool.gforge.inria70/28.php"
+        url: "https://proglets.algorea.org/contents/5403/"
       - name: "Introduction à la programmation en assembleur"
         type: "Module"
         volume: 
@@ -40,13 +40,9 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U2/coding/oefprogramC70"
-      - name: "Projet C++ Robot"
-        type: "TP, exercices, quiz"
-        volume: 
-        url: "https://unisciel.org/r/262.9-14170/61/39/39.html0id=2380400"
   - name: "Suites et séries"
     resources: 
-      - name: "L1 : Suites et séries"
+      - name: "L1 : Suites et séries"
         type: "Cours complet ou MOOC *"
         volume: 
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=40"
@@ -131,7 +127,7 @@ years:
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/determinant1/determinant1/co/determinant1.html"
       - name: "Matrices"
-        type: "Module"
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/54/res/18_Matrices.pdf"
       - name: "Réductions des endomorphismes"
@@ -190,10 +186,6 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/45/45/co/45.html"
-      - name: "Techniques de résolution d’équations différentielles"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/25.4/iel/45/28.html"
       - name: "Systèmes différentiels"
         type: "Module"
         volume: 
@@ -237,7 +229,7 @@ years:
         volume: 
         url: "https://unisciel.org/r/25.4/36/514-11-similitudes/co/514-11_webUnisciel.html"
       - name: "Cours de géométrie élémentaire"
-        type: "Module"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/geometrie/co/27.html"
       - name: "Rappels de géométrie, Courbes et surfaces"
@@ -245,7 +237,7 @@ years:
         volume: 
         url: "https://unisciel.org/r/25.4/46/47/Courb_Surf/co/Courb_Surf_01.html"
       - name: "Géométrie du plan"
-        type: "Grain ou élément de cours"
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/exos_ats_geometrie/co/27.html"
       - name: "Sous-variétés"
@@ -281,7 +273,7 @@ years:
       - name: "Le principe de Fermat : un principe variationnel"
         type: "TP, exercices, quiz"
         volume: 
-        url: "https://unisciel.org/r/2prn1.9-3070/35/PRN/res_nlp/NLP_E_M03_G03_07/co/NLP_E_M03_G03_07.html"
+        url: "http://res-nlp.univ-lemans.fr/NLP_C_M03_G03/co/Contenu_25.html"
       - name: "OEF optique"
         type: "TP, exercices, quiz"
         volume: 
@@ -315,7 +307,7 @@ years:
       - name: "Mesure d’un moment d’inertie"
         type: "TP, exercices, quiz"
         volume: 
-        url: "https://unisciel.org/r/2prn1.9-3070/35/PRN/res_nlp/NLP_E_M02_G01_12/co/NLP_E_M02_G01_12_web.html"
+        url: "http://res-nlp.univ-lemans.fr/NLP_E_M02_G01_12/co/NLP_E_M02_G01_12.html"
       - name: "Calcul des moments d’inertie de différents solides simples"
         type: "TP, exercices, quiz"
         volume: 
@@ -325,7 +317,7 @@ years:
         volume: 
         url: "https://unisciel.org/r/2phymain.4/category/mecanique-des-solides/"
       - name: "La Physique animée"
-        type: "Grain ou élément de cours"
+        type: "Grains ou éléments de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/58/20/la_25_animee"
   - name: "Electricité/électrocinétique/électronique"
@@ -405,7 +397,7 @@ years:
   - name: "Anglais scientifique"
     resources: 
       - name: "Lexico"
-        type: " Grains ou éléments de cours"
+        type: "Grains ou éléments de cours"
         volume: 
         url: "https://unisciel.org/r/248.4/"
   - name: "Méthodologie"
@@ -433,14 +425,6 @@ years:
   ue:
   - name: "Thermodynamique"
     resources: 
-      - name: "Premier principe de la thermodynamique"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/15/chimther/chimther_ch03/co/apprendre_01.html"
-      - name: "Second principe de la thermodynamique"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/15/chimther/chimther_ch04/co/apprendre_01.html"
       - name: "Thermodynamique 0"
         type: "Module"
         volume: 
@@ -495,14 +479,6 @@ years:
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2phymain.4/category/magnetisme/"
-      - name: "Interactions de deux bobines mobiles traversées par un courant [Application du théorème de Maxwell au calcul des forces magnétiques]"
-        type: "Grain ou élément de cours"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/25/magneto/magneto_ch04/co/observer_ch4_02_02.html"
-      - name: "Tige métallique mobile dans un champ magnétostatique [Force de Laplace – Théorème de Maxwell]"
-        type: "Grain ou élément de cours"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/25/magneto/magneto_ch04/co/observer_ch1_01_01.html"
   - name: "Physique des ondes"
     resources: 
       - name: "Systèmes oscillants"
@@ -522,7 +498,7 @@ years:
         volume: 
         url: "https://unisciel.org/r/2uel.4/25/meca/meca_ch09/co/apprendre_01.html"
       - name: "Oscillateurs"
-        type: "TP, exercices, quiz "
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/25/ondes_mecaniques/res/osc-couples.pdf"
   - name: "Mécanique des solides"
