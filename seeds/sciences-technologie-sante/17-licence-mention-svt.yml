@@ -15,12 +15,12 @@ years:
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=32"
       - name: "L1: Organisation du vivant"
         type: "Cours complet ou MOOC *"
-        volume: " 50h"
+        volume: "50h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=33"
       - name: "Expression, stabilité et variation du patrimoine génétique et évolution"
         type: "Grain(s) ou élément(s) de cours"
         volume: 
-        url: "https://unisciel.org/r/25.4/38-37/P3/co/P3_web.html"
+        url: "https://ressources.unisciel.fr/DAEU/biologie/P3/co/module_P3.html"
       - name: "Introduction à la diversité du vivant animal"
         type: "Grain(s) ou élément(s) de cours"
         volume: 
@@ -35,46 +35,38 @@ years:
         url: "https://unisciel.org/r/2uel.4/37/321/321_ch01/co/apprendre_ch01_1.html"
   - name: "Biologie cellulaire"
     resources: 
-      - name: "Biologie Cellulaire"
-        type: "Modules"
-        volume: "11 modules"
-        url: "https://unisciel.org/r/25.4/biocell/27/co/Menu_webUnisciel.html"
       - name: "Structure, fonction et métabolisme de la cellule"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
-        url: "https://unisciel.org/r/25.4/38-37/P1/co/P1_web.html"
+        url: "https://ressources.unisciel.fr/DAEU/biologie/P1/co/module_P1.html"
       - name: "Cellule végétale"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2uel.4/37/321/321_ch03/co/321_ch03.html"
       - name: "La structure du chloroplaste"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/Chloroplaste/28.html"
       - name: "La croissance de la cellule végétale"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/cell/28.htm"
       - name: "La mitose"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/3rnbio.upmc70/bio-cell_mitose_sommaire"
       - name: "La régulation du cycle cellulaire"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/cyclecellBM/28.htm"
       - name: "Ultrastructure du noyau interphasique de l’hépatocyte de rat"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/noyau/28.htm"
       - name: "La cellule musculaire lisse vasculaire (CMLV)"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/cmlv/28.htm"
-      - name: "La cellule et ses composants"
-        type: "TP, exercices, quiz"
-        volume: 
-        url: "https://unisciel.org/r/262.9-14170/61/39/39.html0id=3333459"
   - name: "Biologie animale"
     resources: 
       - name: "Histologique"
@@ -82,27 +74,27 @@ years:
         volume: 
         url: "https://unisciel.org/r/2histologique.9-lille170/"
       - name: "Introduction à la diversité du vivant animal"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/25.4/zoologie/theme_0_introduction/LSV 1_concepts.htm"
       - name: "La dissection de la souris"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/la_dissection_de_la_souris.8912"
       - name: "La dissection du criquet"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/la_dissection_du_criquet.8902"
       - name: "La dissection du calmar"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/science_en_65/37_animale_la_dissection_du_calmar_1_morphologie.6157"
       - name: "La dissection de l’étoile de mer"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/science_en_65/37_animale_la_dissection_de_l_etoile_de_mer.9914"
       - name: "La dissection de la moule"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/la_dissection_de_la_moule.12916"
   - name: "Biologie végétale"
@@ -120,17 +112,13 @@ years:
         volume: 
         url: "https://unisciel.org/r/2uel.4/37/321/321/co/321.html"
       - name: "La photosynthèse"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/Photosynthese-65/28.htm"
       - name: "Nutrition carbonée – Etude de la photosynthèse"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2uel.4/37/321/321_ch02/co/apprendre_ch02_2.html"
-      - name: "Connaissance du monde végétal"
-        type: "TP, exercices, quiz"
-        volume: 
-        url: "https://unisciel.org/r/2cmveg.9-lille170/co/000_cm1veg_webUnisciel.html"
       - name: "Reconnaissance de tissus végétaux"
         type: "TP, exercices, quiz"
         volume: 
@@ -146,8 +134,8 @@ years:
         volume: "30h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=58"
       - name: "L1 : Trilogique (semaines 2 à 7)"
-        type: " Cours complet ou MOOC *"
-        volume: " 30h"
+        type: "Cours complet ou MOOC *"
+        volume: "30h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=127"
       - name: "Biochimie"
         type: "Module"
@@ -156,31 +144,27 @@ years:
   - name: "La Terre : planète active"
     resources: 
       - name: "Histoire d’un mystère : l’intérieur de la Terre"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/modeles-interieur-18.xml"
       - name: "Composition chimique de la Terre – Préambule"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/td-15-Terre-intro.xml"
       - name: "Comment sait-on que le noyau terrestre est composé essentiellement de fer ?"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/noyau-fer-Terre.xml"
       - name: "Quel âge a la Terre ?"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/histoire-age-Terre.xml"
       - name: "Introduction à la tectonique des plaques"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/intro-tectonique-plaques.xml"
-      - name: "Fusion et cristallisation dans la Terre"
-        type: "Grain ou éléments de cours"
-        volume: 
-        url: "https://unisciel.org/r/262.9-14170/61/39/39.html0id=1400022"
       - name: "Comment différencier les enveloppes atmosphériques ?"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/structure-atmosphere2.xml"
   - name: "La Terre dans l’Univers"
@@ -194,21 +178,21 @@ years:
         volume: 
         url: "https://unisciel.org/r/2exo16es.esep.pro/28.php"
       - name: "Comparer et classer les objets du système solaire"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/comparer-16es-satellites-systeme-solaire.xml"
       - name: "Les planètes et satellites telluriques du système solaire"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/16es-telluriques.xml"
   - name: "Maths appliquées aux sciences naturelles"
     resources: 
       - name: "Systèmes dynamiques et applications en sciences de la vie"
         type: "Modules"
-        volume:
+        volume: 
         url: "https://unisciel.org/r/2bmm.9-14170/"
       - name: "Équations différentielles"
-        type: " Modules"
+        type: "Modules"
         volume: 
         url: "https://unisciel.org/r/25.4/46/47/Eq_Diff/co/Eq_Diff_01.html"
       - name: "L1 : Traitement analyse et modélisation des données"
@@ -220,7 +204,7 @@ years:
         volume: 
         url: "https://unisciel.org/r/25.4/36/519-21_probabilites/co/519-21_webUnisciel.html"
       - name: "Introduction aux tests statistiques en génétique des populations"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2uel.4/37/genepop/genepop_ch01/co/apprendre_ch1_01.html"
   - name: "État de la matière"
@@ -234,11 +218,11 @@ years:
         volume: 
         url: "https://unisciel.org/r/2uel.4/15/51/51/co/51.html"
       - name: "Connaissances de bases en chimie"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/25.4/38/15/savoir-base/co/Bloc1_15_web.html"
       - name: "Structures chimiques carbonées"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/25.4/38/15/structure-carbone/co/Bloc_2_15_web.html"
   - name: "Chimie des solutions"
@@ -253,15 +237,15 @@ years:
         url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/05-60-en-57/co/05-60_en_57_web.html"
       - name: "Chimie en solution aqueuse"
         type: "Module"
-        volume:
+        volume: 
         url: "https://unisciel.org/r/2uel.4/15/67/67/co/67.html"
       - name: "Trilogique sem 11 – Introduction à la chimie des solutions 1"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours *"
         volume: "5h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=1271section=11"
       - name: "Trilogique sem 12 – Acides et bases"
-        type: "Grain ou éléments de cours"
-        volume: "5h" 
+        type: "Grain(s) ou élément(s) de cours *"
+        volume: "5h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=1271section=12"
       - name: "Exercices relatifs au calcul de pH des solutions aqueuses"
         type: "TP, exercices, quiz"
@@ -272,7 +256,7 @@ years:
         volume: 
         url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/05-60-en-57/co/32_05-60_en_57_23.html"
       - name: "Videochem: bonnes pratiques expérimentales au labo de chimie"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/58/20/23chem"
   - name: "Compétences transversales"
@@ -285,20 +269,16 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2e-65.9-lr70/UNT/darwin/"
-      - name: "Méthodologie"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/25.4/38-methodologie/co/32_Francais.html"
       - name: "Appui pour apprendre à apprendre"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2ics.utc70/appuis_apprendre/co/apprendre.html"
-      - name: "Lexico "
-        type: "Grain ou éléments de cours"
+      - name: "Lexico"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/248.4/"
       - name: "Orthographe scientifique"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2orthographe.4/"
 
@@ -322,10 +302,6 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/vade-mecum-granites.xml"
-      - name: "Microscope virtuel"
-        type: "TP, exercices, quiz"
-        volume: 
-        url: "https://unisciel.org/r/262.9-14170/61/39/39.html0id=3325333"
   - name: "Géodynamique interne"
     resources: 
       - name: "Histoire de la théorie de la tectonique des plaques"
@@ -356,10 +332,6 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/subsidence.xml"
-      - name: "Fusion et cristallisation dans la Terre"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/262.9-14170/61/39/39.html0id=1400022"
       - name: "Le volcanisme d’Auvergne : un point chaud ?"
         type: "Module"
         volume: 
@@ -372,10 +344,6 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/seisme-magnitude-moment-energie.xml"
-      - name: "Mise en évidence de la zone d’ombre sismique"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/262.9-14170/61/11/11.html0id=583684112Mode=visu1idChapter=583694"
       - name: "Enregistrement des ondes sismiques sur un sismogramme"
         type: "Module"
         volume: 
@@ -402,20 +370,20 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/5/dossiers-thematiques/bilan-radiatif-18"
-      - name: "La mystérieuse « force de Coriolis »"
+      - name: "La mystérieuse « force de Coriolis »"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/force-de-coriolis.xml"
       - name: "KEZAKO : Comment prédit-on la météo ?"
-        type: "Grain ou élément sde cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/269.4/69-comment-predit-on-la-meteo/"
       - name: "KEZAKO : Qu’est ce que l’effet de serre ?"
-        type: "Grain ou élément sde cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/269.4/69-quest-ce-que-leffet-de-serre/"
       - name: "KEZAKO : Comment se forme un tsunami ?"
-        type: "Grain ou élément sde cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/269.4/69-comment-se-forme-un-tsunami/"
   - name: "Génétique"
@@ -435,7 +403,7 @@ years:
       - name: "Expression, stabilité et variation du patrimoine génétique et évolution"
         type: "Module"
         volume: 
-        url: "https://unisciel.org/r/25.4/38-37/P3/co/P3_web.html"
+        url: "https://ressources.unisciel.fr/DAEU/biologie/P3/co/module_P3.html"
       - name: "Génétique"
         type: "Module"
         volume: 
@@ -447,27 +415,23 @@ years:
   - name: "Biologie moléculaire"
     resources: 
       - name: "La PCR"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/3rnbio.upmc70/bio-mol_pcr_sommaire"
-      - name: "La biosynthèse des protéines"
-        type: "Grain ou éléments de cours"
-        volume: 
-        url: "https://unisciel.org/r/2www.snv.1970/26/SynthProt/SynthProt.htm"
       - name: "Le code génétique"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/codegenet/CodeGenet.htm"
       - name: "La régulation de l’opéron lactose"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/3rnbio.upmc70/bio-mol_operon-lactose_sommaire"
       - name: "La technique d’électrophorèse sur gel d’agarose"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/science_en_65/la_technique_d_electrophorese_sur_gel_d_agarose_2003.110"
       - name: "Utilisation des micro-pipettes en biologie moléculaire"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/science_en_65/utilisation_des_micro_pipettes_en_37_moleculaire_2003.108"
   - name: "Biologie du développement"
@@ -484,38 +448,22 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/xenope1/28.htm"
-      - name: "De l’œu"
+      - name: "De l’œuf à la poule"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/Poulet/28.htm"
-      - name: "f"
-        type: "Grain ou éléments de cours"
-        volume: 
-        url: "https://unisciel.org/r/2www.snv.1970/26/Poulet/28.htm"
-      - name: " à la poule"
-        type: "Grain ou éléments de cours"
-        volume: 
-        url: "https://unisciel.org/r/2www.snv.1970/26/Poulet/28.htm"
       - name: "Développement des échinodermes"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/oursinMDC/28.html"
-      - name: "Le cycle du xenope"
-        type: "Grain ou éléments de cours"
-        volume: 
-        url: "https://unisciel.org/r/2www.snv.1970/26/Xencycl/28.html"
       - name: "Etapes précoces du développement de l’Hermelle (Sabellaria alveolata)"
-        type: 
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/SiteSabellaria/28.htm"
-      - name: "L’expérience de Nieuwkoop"
-        type: 
-        volume: 
-        url: "https://unisciel.org/r/2www.snv.1970/26/CoursPCEMDEUG/nieuwkexp.htm"
   - name: "Immunologie"
     resources: 
       - name: "Quelques manipulations d’immunologie"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/ATP/immu.htm"
       - name: "OEF système immunitaire"
@@ -557,19 +505,19 @@ years:
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U1/botany/oefident70"
       - name: "L’herbier en images"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2abiris.snv.1970/flore/herbier.php"
       - name: "Reconnaissance de champignons"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U1/mycology/oefident70"
       - name: "Identification assistée par ordinateur"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2abiris.snv.1970/flore/flore.html"
       - name: "Les crustacés"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/PetitBuffon/crustaces/28.htm"
   - name: "Physiologie animale"
@@ -583,12 +531,12 @@ years:
         volume: 
         url: "https://unisciel.org/r/25.4/zoologie/theme_0_introduction/LSV 1_concepts.htm"
       - name: "Dissection des animaux"
-        type: "Grain ou élément sde cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://www.canal-u.tv/producteurs/tele2sciences/biologie_animale/dissection_des_animaux"
   - name: "Neurosciences"
     resources: 
-      - name: "Neuranat "
+      - name: "Neuranat"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2www.chups.1970/ext/neuranat/"
@@ -607,13 +555,13 @@ years:
         volume: 
         url: "https://unisciel.org/r/2uel.4/37/321/321_ch01/co/apprendre_ch01_3.html"
       - name: "Détermination du nombre de microorganismes dans une culture"
-        type: "TP, exercices, quiz "
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/ATP/microb02.htm"
   - name: "Anglais scientifique"
     resources: 
       - name: "Lexico"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/248.4/"
 
@@ -633,7 +581,7 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/paleontologie-biodiversite.xml"
-      - name: "Le développement de la végétation continentale de   l’Ordovicien au Dévonien et ses conséquences géologiques"
+      - name: "Le développement de la végétation continentale de l’Ordovicien au Dévonien et ses conséquences géologiques"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/216-18.ens-1470/22/vegetation-continentale-Paleozoique.xml"
@@ -651,14 +599,10 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2media4.obspm70/public/AMC/28.html"
-      - name: "Fenêtre sur l’Univers"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/2media4.obspm70/public/FSU/28.html"
   - name: "Biotechnologies – Bioinformatique"
     resources: 
       - name: "Expérimentation assistée par ordinateur"
-        type: "TP, exercices, quiz"
+        type: " TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/ATP/exao.htm"
       - name: "Le clonage chez les amphibiens"
@@ -666,21 +610,21 @@ years:
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/clonage/28.htm"
       - name: "Infographie moléculaire (liens vers différentes ressources sur le sujet)"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/ATP/model.htm"
-      - name: "Transgenèse bactérienne "
-        type: "Grain ou éléments de cours"
+      - name: "Transgenèse bactérienne"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/ATP/transgen.htm"
   - name: "Toxicologie"
     resources: 
       - name: "La mélanine. Structure, toxicité et fraude"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://culturesciences.chimie.ens.fr/thematiques/chimie-analytique/analyse-quantitative/la-melamine-structure-toxicite-et-fraude"
       - name: "Les parabènes au quotidien "
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours "
         volume: 
         url: "https://culturesciences.chimie.ens.fr/thematiques/chimie-et-societe/sante/les-parabenes-au-quotidien"
   - name: "Biologie marine"
@@ -693,7 +637,7 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/PetitBuffon/crustaces/28.htm"
-      - name: "Généralités sur la biologie, la taxinomie et l’ecologie des copépodes "
+      - name: "Généralités sur la biologie, la taxinomie et l’ecologie des copépodes"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2www.obs-vlfr70/~gaspari/copepodes/28.html"
@@ -708,20 +652,20 @@ years:
         volume: 
         url: "https://unisciel.org/r/2www.chups.1970/qcms/bio25/28.html"
       - name: "Images sonores et ultrasonores du corps humain"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2culturesciences25.ens-1470/XML/db/cs25/63/LOM_CSP_conference-PP2009-imagerie-sonore-MFink.xml"
       - name: "Hautes performances en RMN et applications"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2culturesciences25.ens-1470/XML/db/cs25/63/LOM_CSP_RMN-LEmsley.xml"
-      - name: "Champs électromagnétiques et santé "
-        type: "Grain ou éléments de cours"
+      - name: "Champs électromagnétiques et santé"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/2culturesciences25.ens-1470/XML/db/cs25/63/LOM_CSP_lien-conference-Seze-champ-electromagnetique-sante.xml"
   - name: "Anglais scientifique"
     resources: 
       - name: "Lexico"
-        type: "Grain ou éléments de cours"
+        type: "Grain(s) ou élément(s) de cours"
         volume: 
         url: "https://unisciel.org/r/248.4/"
