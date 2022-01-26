@@ -28,10 +28,10 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/algoprog/s00aaroot/aa00321/co/aa00321_web.html"
-      - name: "Java’s Cool"
+      - name: "Java’s Cool-Proglets"
         type: "Module"
         volume: 
-        url: "https://unisciel.org/r/2javascool.gforge.inria70/28.php"
+        url: "https://proglets.algorea.org/contents/5403/"
       - name: "Introduction à la programmation en assembleur"
         type: "Module"
         volume: 
@@ -44,13 +44,9 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U2/coding/oefprogramC70"
-      - name: "Projet C++ Robot"
-        type: "TP, exercices, quiz" 
-        volume: 
-        url: "https://unisciel.org/r/262.9-14170/61/39/39.html0id=2380400"
   - name: "Suites et séries"
     resources: 
-      - name: "L1 : Suites et séries"
+      - name: "L1 : Suites et séries"
         type: "Cours complet ou MOOC *"
         volume: "50h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=40"
@@ -70,7 +66,7 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/46/47/SuitesNumeriques/co/SuitesNumeriques.html"
-      - name: "Suites et séries de fonctions "
+      - name: "Suites et séries de fonctions"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/suites_fonctions/suites_fonctions/co/suites_fonctions.html"
@@ -112,7 +108,7 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/themes/sciences_fondamentales/6/algebre/logique_ensemble_raisonnement_exercices"
-      - name: "Dénombrement "
+      - name: "Dénombrement"
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00005.pdf"
@@ -198,10 +194,6 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/45/45/co/45.html"
-      - name: "Techniques de résolution d’équations différentielles"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/25.4/iel/45/28.html"
       - name: "Systèmes différentiels"
         type: "Module"
         volume: 
@@ -222,7 +214,7 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/66/13_Equations_differentielles/co/13_Equations_differentielles_web.html"
-      - name: "Exercices de calcul différentiel "
+      - name: "Exercices de calcul différentiel"
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/exos_calculdiff_2a_pc/co/27.html"
@@ -286,10 +278,6 @@ years:
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2culturesciences25.ens-1470/XML/db/cs25/63/LOM_CSP_Couleur.xml"
-      - name: "Le principe de Fermat : un principe variationnel"
-        type: "TP, exercices, quiz"
-        volume: 
-        url: "https://unisciel.org/r/2prn1.9-3070/35/PRN/res_nlp/NLP_E_M03_G03_07/co/NLP_E_M03_G03_07.html"
       - name: "OEF optique"
         type: "TP, exercices, quiz"
         volume: 
@@ -316,24 +304,32 @@ years:
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2res-nlp.9-3070/NLP_C_M01_G01/co/NLP_C_M01_G01_web.html"
-      - name: "TD Mécanique"
+      - name: "TD"
+        type: " "
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/25/td_meca/co/27.html"
+      - name: ""
         type: "TD, étude de cas"
+        volume: 
+        url: "https://unisciel.org/r/25.4/7/25/td_meca/co/27.html"
+      - name: "Mécanique"
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/25/td_meca/co/27.html"
       - name: "Mesure d’un moment d’inertie"
         type: "TP, exercices, quiz"
         volume: 
-        url: "https://unisciel.org/r/2prn1.9-3070/35/PRN/res_nlp/NLP_E_M02_G01_12/co/NLP_E_M02_G01_12_web.html"
+        url: "http://res-nlp.univ-lemans.fr/NLP_E_M02_G01_12/co/NLP_E_M02_G01_12.html"
       - name: "Calcul des moments d’inertie de différents solides simples"
-        type: "TP, exercices, quiz"
-        volume: 
-        url: "https://unisciel.org/r/2prn1.9-3070/35/PRN/res_nlp/NLP_E_M02_G01_14/co/NLP_E_M02_G01_14_web.html"
-      - name: "Mécanique des solides"
         type: "Grain ou élément de cours"
+        volume: 
+        url: "http://res-nlp.univ-lemans.fr/NLP_E_M02_G01_14/co/NLP_E_M02_G01_14.html"
+      - name: "Mécanique des solides"
+        type: "Grains ou éléments de cours"
         volume: 
         url: "https://unisciel.org/r/2phymain.4/category/mecanique-des-solides/"
       - name: "La Physique animée"
-        type: "Grain ou élément de cours"
+        type: 
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/58/20/la_25_animee"
   - name: "Electricité/électrocinétique/électronique"
@@ -373,7 +369,7 @@ years:
         volume: 
         url: "https://unisciel.org/r/25.4/38/15/savoir-base/co/Bloc1_15_web.html"
       - name: "Structures chimiques carbonées"
-        type: "Grains ou éléments de cours "
+        type: "Grains ou éléments de cours"
         volume: 
         url: "https://unisciel.org/r/25.4/38/15/structure-carbone/co/Bloc_2_15_web.html"
   - name: "Chimie des solutions"
@@ -407,7 +403,7 @@ years:
         volume: 
         url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/05-60-en-57/co/32_05-60_en_57_23.html"
       - name: "Videochem: bonnes pratiques expérimentales au labo de chimie"
-        type: "Grains ou éléments de cours "
+        type: "Grains ou éléments de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/58/20/23chem"
   - name: "Anglais scientifique"
@@ -426,13 +422,17 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2e-65.9-lr70/UNT/darwin/"
-      - name: "Appui pour apprendre à apprendre "
+      - name: ""
         type: "Module"
+        volume: 
+        url: "https://unisciel.org/r/2e-65.9-lr70/UNT/darwin/"
+      - name: "Appui pour apprendre à apprendre"
+        type: 
         volume: 
         url: "https://unisciel.org/r/2ics.utc70/appuis_apprendre/co/apprendre.html"
   - name: "Orthographe scientifique"
     resources: 
-      - name: "Orthographe scientifique "
+      - name: "Orthographe scientifique"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2orthographe.4/"
@@ -441,14 +441,6 @@ years:
   ue:
   - name: "Thermodynamique"
     resources: 
-      - name: "Premier principe de la thermodynamique"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/15/chimther/chimther_ch03/co/apprendre_01.html"
-      - name: "Second principe de la thermodynamique"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/15/chimther/chimther_ch04/co/apprendre_01.html"
       - name: "Thermodynamique 0"
         type: "Module"
         volume: 
@@ -503,14 +495,6 @@ years:
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2phymain.4/category/magnetisme/"
-      - name: "Interactions de deux bobines mobiles traversées par un courant [Application du théorème de Maxwell au calcul des forces magnétiques]"
-        type: "Grain ou élément de cours"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/25/magneto/magneto_ch04/co/observer_ch4_02_02.html"
-      - name: "Tige métallique mobile dans un champ magnétostatique [Force de Laplace – Théorème de Maxwell] "
-        type: "Grain ou élément de cours"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/25/magneto/magneto_ch04/co/observer_ch1_01_01.html"
   - name: "Chimie inorganique"
     resources: 
       - name: "Chimie des éléments p"
@@ -542,7 +526,7 @@ years:
       - name: "Effets électroniques"
         type: "Module"
         volume: 
-        url: "https://unisciel.org/r/2uel.4/15/effelec1/effelec1/co/effelec1.html"
+        url: "https://uel.unisciel.fr/chimie/effelec1/effelec1/co/ellelec1.html"
       - name: "Chimie des éléments p"
         type: "Module"
         volume: 
@@ -559,7 +543,7 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/15/nomen/nomen_ch01/co/apprendre_ch1_02.html"
-      - name: "Videochem: bonnes pratiques expérimentales au labo de   chimie"
+      - name: "Videochem: bonnes pratiques expérimentales au labo de chimie"
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/58/20/23chem"
@@ -583,7 +567,7 @@ years:
         url: "https://unisciel.org/r/2culturesciences25.ens-1470/XML/db/cs25/63/LOM_CSP_Quantique.xml"
   - name: "Cristallographie"
     resources: 
-      - name: "La chimie par le web – Chimie de l’état solide (L’état   solide périodique)"
+      - name: "La chimie par le web – Chimie de l’état solide (L’état solide périodique)"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/06-Etat_solide/co/06-Etat_solide_web.html"
@@ -595,24 +579,24 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.9-3070/35/UM/41/25/02/cristallo/atlas.pdf"
-      - name: "Travaux pratiques de cristallographie 1 : « structure   cubique simple du polonium »"
+      - name: "Travaux pratiques de cristallographie 1 : « structure cubique simple du polonium »"
         type: "TP, exercices, quiz"
         volume: 
-        url: "https://unisciel.org/r/25.4/cristallo/tp1-cubiquesimple/co/Cristallographie_web.html"
-      - name: "Travaux pratiques de cristallographie 2 : « structure   cubique centrée du fer »"
+        url: "https://ressources.unisciel.fr/cristallo/tp1-cubiquesimple/co/module_Cristallographie.html"
+      - name: "Travaux pratiques de cristallographie 2 : « structure cubique centrée du fer »"
         type: "TP, exercices, quiz"
         volume: 
-        url: "https://unisciel.org/r/25.4/cristallo/tp2-cubiquecentre/co/Cristallographie_web.html"
-      - name: "Travaux pratiques de cristallographie 3 : « structure   cubique à face centrée du cuivre »"
+        url: "https://ressources.unisciel.fr/cristallo/tp2-cubiquecentre/co/module_Cristallographie.html"
+      - name: "Travaux pratiques de cristallographie 3 : « structure cubique à face centrée du cuivre »"
         type: "TP, exercices, quiz"
         volume: 
-        url: "https://unisciel.org/r/25.4/cristallo/tp3-cubiquefacecentree/co/Cristallographie_web.html"
-      - name: "Travaux pratiques de cristallographie 4 : « structure   hexagonale compacte du Cobalt »"
+        url: "https://ressources.unisciel.fr/cristallo/tp3-cubiquefacecentree/co/module_Cristallographie.html"
+      - name: "Travaux pratiques de cristallographie 4 : « structure hexagonale compacte du Cobalt »"
         type: "TP, exercices, quiz"
         volume: 
-        url: "https://unisciel.org/r/25.4/cristallo/tp4-hexagonalcompact/co/Cristallographie_web.html"
+        url: "https://ressources.unisciel.fr/cristallo/tp4-hexagonalcompact/co/module_Cristallographie.html"
       - name: "La chimie par le web – Cristallographie"
-        type: " Grain ou élément de cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/08-Cristallographie/28.html"
   - name: "Physique des ondes"
@@ -646,7 +630,7 @@ years:
   - name: "Anglais scientifique"
     resources: 
       - name: "Lexico"
-        type: " Grain ou élément de cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/248.4/"
   - name: "Outils mathématiques"
@@ -672,7 +656,7 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/15/chimther/chimther/co/chimther.html"
-      - name: "La chimie par le web – Réaction chimique – "
+      - name: "La chimie par le web – Réaction chimique –"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.9-3070/35/UM/41/15/01/03-Reaction_chimique/co/03-Reaction_chimique_web.html"
@@ -684,12 +668,8 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/7/15/thermodynamique/co/27.html"
-      - name: "Étude des équilibres chimiques : Comparaison équilibre hétérogène et homogène en fonction de nO,A et B"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/15/chimther/chimther_ch05/co/simuler_ch5_06.html"
       - name: "Équilibres chimiques : simulateur général permettant l’étude de n’importe quel équilibre"
-        type: " Grain ou élément de cours"
+        type: "Grain ou élément de"
         volume: 
         url: "https://unisciel.org/r/2uel.4/15/chimther/chimther_ch05/co/simuler_ch5_07.html"
   - name: "Optique ondulatoire"
@@ -707,17 +687,13 @@ years:
         volume: 
         url: "https://unisciel.org/r/2uel.4/25/interf/interf/co/interf.html"
       - name: "Optique ondulatoire"
-        type: " Grains ou éléments de cours"
+        type: "Grains ou éléments de cours"
         volume: 
         url: "https://unisciel.org/r/25.4/7/25/optique_ondulatoire_2a_pcetoile/co/ch00_27_web.html"
       - name: "Ondes et interférences"
-        type: " Grains ou éléments de cours"
+        type: "Grains ou éléments de cours"
         volume: 
         url: "https://unisciel.org/r/2culturesciences25.ens-1470/XML/db/cs25/63/LOM_CSP_DVDmichelson.xml"
-      - name: "Miroir de Fresnel"
-        type: " Grain ou élément de cours"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/25/interf/interf_ch02/co/observer_ch02_01.html"
   - name: "Mécanique des fluides"
     resources: 
       - name: "Introduction à la mécanique des fluides"
@@ -725,27 +701,27 @@ years:
         volume: 
         url: "https://unisciel.org/r/25.4/mecaflux/co/mecaflux.html"
       - name: "Ondes sonores dans les fluides"
-        type: " Grain ou élément de cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/ondes_sonores_dans_les_fluides.18389"
       - name: "Force de viscosité pour un fluide, équation de Navier-Stokes"
-        type: " Grain ou élément de cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/forces_de_viscosite_pour_un_fluide_equation_de_navier_stokes.18392"
       - name: "Écoulement de Poiseuille d’un fluide visqueux"
-        type: " Grain ou élément de cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/ecoulement_de_poiseuille_d_un_fluide_visqueux.18169"
-      - name: "Écoulement stationnaire d’un fluide parfait incompressible,   théorème de Bernoulli"
-        type: " Grain ou élément de cours"
+      - name: "Écoulement stationnaire d’un fluide parfait incompressible, théorème de Bernoulli"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/ecoulement_stationnaire_d_un_fluide_parfait_incompressible_theoreme_de_bernoulli.18391"
-      - name: "Tension superficielle, épisode 1 interprétation   microscopique et caractérisation"
-        type: " Grain ou élément de cours"
+      - name: "Tension superficielle, épisode 1 interprétation microscopique et caractérisation"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/tension_superficielle_episode_1_interpretation_microscopique_et_caracterisation.23250"
       - name: "Tension superficielle, épisode 2 loi de Laplace et loi de Jurin"
-        type: " Grain ou élément de cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/tension_superficielle_episode_2_loi_de_laplace_et_loi_de_jurin.23252"
   - name: "Chimie analytique"
@@ -763,33 +739,29 @@ years:
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/68/spectro/C2.html"
       - name: "Techniques spectroscopiques – Spectrométrie de masse"
-        type: " Grain ou élément de cours"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/68/spectro/C4.html"
       - name: "Techniques chromatographiques – Généralités"
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/68/chromato/A1.html"
-      - name: "Techniques chromatographiques – Chromatographie en phase   gazeuse"
+      - name: "Techniques chromatographiques – Chromatographie en phase gazeuse"
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/68/chromato/A3.html"
-      - name: "Techniques chromatographiques – Chromatographie liquide   (LC – HPLC)"
+      - name: "Techniques chromatographiques – Chromatographie liquide (LC – HPLC)"
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/68/chromato/A4.html"
-      - name: "Techniques chromatographiques – La chromatographie liquide   : mécanismes et modalités – Les différents modes de chromatographie liquide"
+      - name: "Techniques chromatographiques – La chromatographie liquide : mécanismes et modalités – Les différents modes de chromatographie liquide"
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/68/chromato/A62.html"
-      - name: "Techniques spectroscopiques – Spectrométrie de résonnance   magnétique nucléaire (RMN)"
+      - name: "Techniques spectroscopiques – Spectrométrie de résonnance magnétique nucléaire (RMN)"
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.snv.1970/26/68/spectro/C5.html"
-      - name: "Multispectroscopie"
-        type: "Grain ou élément de cours"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/15/multispectro/multispectro_ch01/co/multispectro_ch01_1.html"
       - name: "Laser et molécules : de la spectroscopie à la femtochimie"
         type: "Grain ou élément de cours"
         volume: 
