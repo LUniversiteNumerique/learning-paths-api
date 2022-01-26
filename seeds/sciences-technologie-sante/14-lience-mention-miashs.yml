@@ -26,10 +26,10 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/pharo/WebPortal/co/50.html"
-      - name: "Java’s Cool"
+      - name: "Java’s Cool-Proglets"
         type: "Module"
         volume: 
-        url: "https://unisciel.org/r/2javascool.gforge.inria70/28.php"
+        url: "https://proglets.algorea.org/contents/5403/"
       - name: "Introduction à la programmation en assembleur"
         type: "Module"
         volume: 
@@ -42,10 +42,6 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U2/coding/oefprogramC70"
-      - name: "Projet C++ Robot"
-        type: "TP, exercices, quiz"
-        volume: 
-        url: "https://unisciel.org/r/262.9-14170/61/39/39.html0id=2380400"
   - name: "Suites et séries"
     resources: 
       - name: "L1 : Suites et séries"
@@ -196,10 +192,6 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/45/45/co/45.html"
-      - name: "Techniques de résolution d’équations différentielles"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/25.4/iel/45/28.html"
       - name: "Systèmes différentiels"
         type: "Module"
         volume: 
@@ -227,7 +219,7 @@ years:
   - name: "Géométrie"
     resources: 
       - name: "Géométrie analytique"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/59/59/co/59.html"
       - name: "Produits scalaires dans l’espace – Droites et plans dans l’espace"
@@ -254,30 +246,26 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/exos_ats_geometrie/co/27.html"
-      - name: "Sous-variétés "
+      - name: "Sous-variétés"
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00051.pdf"
   - name: "Anglais scientifique"
     resources: 
-      - name: "Lexico "
-        type: " Grain ou élément de cours "
+      - name: "Lexico"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/248.4/"
   - name: "Méthodologie"
     resources: 
       - name: "Méthodologie de travail universitaire pour étudiant"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=144"
       - name: "Enquête Darwin, se former à la méthodologie d’analyse de documents iconographiques"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2e-65.9-lr70/UNT/darwin/"
-      - name: "Méthodologie"
-        type: "Module"
-        volume: 
-        url: "https://unisciel.org/r/25.4/38-methodologie/co/32_Francais.html"
       - name: "Appui pour apprendre à apprendre"
         type: "Module"
         volume: 
@@ -294,7 +282,7 @@ years:
   - name: "Arithmétique"
     resources: 
       - name: "L1: Arithmétique"
-        type: " Cours complet ou MOOC *"
+        type: "Cours complet ou MOOC *"
         volume: "50h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=21"
       - name: "Arithmétique"
@@ -329,10 +317,10 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00029.pdf"
-  - name: "Polynômes "
+  - name: "Polynômes"
     resources: 
       - name: "L1: Polynômes"
-        type: " Cours complet ou MOOC *"
+        type: "Cours complet ou MOOC *"
         volume: "55h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=43"
       - name: "Polynômes"
@@ -371,10 +359,6 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U1/algebra/coincpolyroots70"
-      - name: "Polynôme du second degré"
-        type: "Grain ou élément de cours"
-        volume: 
-        url: "https://unisciel.org/r/2animations.24s.education/animation-domaine/polynome-du-second-degre/"
       - name: "Ordre polynôme"
         type: "Grain ou élément de cours"
         volume: 
@@ -383,14 +367,14 @@ years:
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=tool/algebra/primpoly70"
-      - name: "Balai polynomial "
-        type: "Grain ou élément de cours "
+      - name: "Balai polynomial"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=tool/algebra/sweeppoly70"
   - name: "Intégration"
     resources: 
       - name: "L1: Intégration"
-        type: " Cours complet ou MOOC *"
+        type: "Cours complet ou MOOC *"
         volume: "45h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=47"
       - name: "Intégrales"
@@ -429,15 +413,11 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00015.pdf"
-      - name: "Elise : didacticiel d’entraînement au calcul méthodique de primitives"
-        type: "TP, exercices, quiz"
-        volume: 
-        url: "https://unisciel.org/r/2uel.4/6/49/49_ch04/co/sexercer_ch4_01.html"
       - name: "Exercices d’analyse"
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/exos_analyse_ecs/co/27.html"
-      - name: "Calculs d’intégrales (cours et correction d’exercices filmés) "
+      - name: "Calculs d’intégrales (cours et correction d’exercices filmés)"
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/58/20/21/calculs_d_integrales"
@@ -479,14 +459,14 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00017.pdf"
-      - name: "Sous-espaces vectoriels "
+      - name: "Sous-espaces vectoriels"
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/espacevect1/espacevect1_ch02/co/sexercer_01.html"
   - name: "Fonctions de variables"
     resources: 
       - name: "Étude globale des fonctions de classe Cn"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/analyse2/analyse2/co/analyse2.html"
       - name: "Limite, Continuité, Dérivée, Sens de Variation"
@@ -517,14 +497,14 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/66/07_Fonctions_usuelles/co/07_Fonctions_usuelles_web.html"
-      - name: "Développements limités "
-        type: "Grain ou élément de cours "
+      - name: "Développements limités"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/58/20/21/developpements_limites"
   - name: "Statistiques et Probabilités"
     resources: 
       - name: "L2 : Traitement analyse et modélisation des données"
-        type: " Cours complet ou MOOC *"
+        type: "Cours complet ou MOOC *"
         volume: "50h"
         url: "https://unisciel.org/r/3socles3.4/11/12.php0id=126"
       - name: "Probabilités et statistiques"
@@ -547,10 +527,6 @@ years:
         type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/2www.17-u.tv/23/20/69_pourquoi_la_tartine_tombe_toujours_du_cote_beurre.9723"
-      - name: "Animation en statistiques"
-        type: "Grain ou élément de cours"
-        volume: 
-        url: "https://unisciel.org/r/2streams.9-14170/23Stream/streams/141/32s/207d4/web/437b5/Animation statistiques/deploy/Stats-Siani.swf"
       - name: "OEF Probabilités conditionnelles"
         type: "TP, exercices, quiz"
         volume: 
@@ -559,14 +535,14 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U1/proba/oefbases70"
-      - name: "OEF proba "
-        type: "TP, exercices, quiz  "
+      - name: "OEF proba"
+        type: "TP, exercices, quiz "
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=H6/probability/oefproba70"
-  - name: "Algorithmes "
+  - name: "Algorithmes"
     resources: 
       - name: "Algorithmique et programmation"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/algoprog/s00aaroot/aa00321/co/aa00321_web.html"
       - name: "Complexité des algorithmes"
@@ -582,13 +558,13 @@ years:
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U3/algo/doccomplexity70"
       - name: "OEF algorithme en arithmétique"
-        type: "TP, exercices, quiz  "
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U3/algo/oefalgoarithm70"
-  - name: "Anglais scientifique  "
+  - name: "Anglais scientifique"
     resources: 
-      - name: "Lexico "
-        type: "Grain ou élément de cours "
+      - name: "Lexico"
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/248.4/"
 
@@ -596,11 +572,11 @@ years:
   ue:
   - name: "Base de données"
     resources: 
-      - name: "Système de Gestion de Bases de Données "
+      - name: "Système de Gestion de Bases de Données"
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/2e-5.9-avignon70/sgbd/co/sgbd_webUnisciel.html"
-  - name: "Anneaux de polynômes  "
+  - name: "Anneaux de polynômes"
     resources: 
       - name: "Polynômes"
         type: "Module"
@@ -623,13 +599,13 @@ years:
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00032.pdf"
       - name: "Anneaux de polynômes III"
-        type: "TP, exercices, quiz  "
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00033.pdf"
   - name: "Calcul Différentiel"
     resources: 
       - name: "Systèmes différentiels"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/56/56/co/56.html"
       - name: "Calcul différentiel"
@@ -652,14 +628,14 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00050.pdf"
-      - name: "Différentielles secondes, extremums "
-        type: "TP, exercices, quiz  "
+      - name: "Différentielles secondes, extremums"
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00052.pdf"
-  - name: "Intégration 2  "
+  - name: "Intégration 2"
     resources: 
       - name: "Intégrales"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/46/47/Integrales/co/Integrales_01.html"
       - name: "Intégration"
@@ -667,13 +643,13 @@ years:
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/49/49/co/49.html"
       - name: "Intégrale"
-        type: "TP, exercices, quiz  "
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/exos_analyse_2a_pc/res/z-ana-3.pdf"
   - name: "Géométrie différentielle"
     resources: 
       - name: "Rappels de géométrie, courbes et surfaces"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/46/47/Courb_Surf/co/Courb_Surf_01.html"
       - name: "Géométrie différentielle"
@@ -687,21 +663,21 @@ years:
   - name: "Topologie"
     resources: 
       - name: "Rappel [Topologie]"
-        type: " TP, exercices, quiz"
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00036.pdf"
       - name: "Topologie générale"
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00037.pdf"
-      - name: "Espaces complets "
+      - name: "Espaces complets"
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00041.pdf"
   - name: "Probabilité"
     resources: 
       - name: "Espaces probabilisés"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/54/res/13_Espaces_probabilises.pdf"
       - name: "Problème de convergence et approximations en probabilité"
@@ -712,14 +688,14 @@ years:
         type: "Module"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/65_2a_ece/res/chap3_2010.pdf"
-      - name: "OEF Chaînes de Markov  "
+      - name: "OEF Chaînes de Markov"
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/210auto.di.u-3170/10/10.cgi032=U2/proba/oefmarkov70"
   - name: "Espaces vectoriels et applications linéaires"
     resources: 
       - name: "Application linéaire (module espaces vectoriels)"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/espacevect1/espacevect1_ch04/co/espacevect1_ch04.html"
       - name: "Espaces vectoriels normés"
@@ -738,14 +714,14 @@ years:
         type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/25.4/7/6/exos_algebre_bilineaire_pc/res/z-bil-1.pdf"
-      - name: "Théorème de Stone-Weierstrass – Théorème d’Ascoli "
-        type: "TP, exercices, quiz  "
+      - name: "Théorème de Stone-Weierstrass – Théorème d’Ascoli"
+        type: "TP, exercices, quiz"
         volume: 
         url: "https://unisciel.org/r/221.2470/29/fic00042.pdf"
-  - name: "Approximation de fonction, d’intégrale et d’équation différentielle  "
+  - name: "Approximation de fonction, d’intégrale et d’équation différentielle"
     resources: 
       - name: "Approximations numériques"
-        type: " Module"
+        type: "Module"
         volume: 
         url: "https://unisciel.org/r/2uel.4/6/49/49_ch05/co/apprendre_ch5_01.html"
       - name: "OEF Systèmes linéaires et modélisation"
@@ -755,6 +731,6 @@ years:
   - name: "Anglais scientifique"
     resources: 
       - name: "Lexico"
-        type: "Grain ou élément de cours "
+        type: "Grain ou élément de cours"
         volume: 
         url: "https://unisciel.org/r/248.4/"
