@@ -14,14 +14,14 @@ use Symfony\Component\Yaml\Yaml;
 
 class LearningPathApi {
     public function getFields() {
-        $seeds = Yaml::parseFile(__DIR__ . '/../seeds/fields.yml');
+        $seeds = Yaml::parseFile(__DIR__ . '/../parcours-hybridation/fields.yml');
         return $seeds;
     }
 
     public function getData($id) {
         $result = new \stdClass();
         $result = array();
-        $files = glob(__DIR__ . '/../seeds/**/*.yml');
+        $files = glob(__DIR__ . '/../parcours-hybridation/**/*.yml');
         
         foreach($files as $filename) {
             $parts = explode("/", $filename);
@@ -36,7 +36,7 @@ class LearningPathApi {
     public function filterData($id, $type) {
         $result = new \stdClass();
         $result = array();
-        $files = glob(__DIR__ . '/../seeds/**/*.yml');
+        $files = glob(__DIR__ . '/../parcours-hybridation/**/*.yml');
         
         foreach($files as $filename) {
             $parts = explode("/", $filename);
