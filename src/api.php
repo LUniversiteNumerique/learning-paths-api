@@ -48,7 +48,7 @@ class LearningPathApi {
                 foreach ($filteredResults['years'] as &$year) {
                     foreach ($year['ue'] as &$ue) {
                         if (isset($ue['resources'])) {
-                            $filtered = array_filter($ue['resources'], function($obj) {
+                            $filtered = array_filter($ue['resources'], function($obj) use ($type) {
                                 if ($obj['type'] != $type) {
                                     return false;
                                 }
