@@ -33,7 +33,7 @@ class LearningPathApi {
         return $result;
     }
 
-    public function filterData($id, $type) {
+    public function filterData($id, $origin) {
         $result = new \stdClass();
         $result = array();
         $files = glob(__DIR__ . '/../parcours-hybridation/**/*.yml');
@@ -46,22 +46,55 @@ class LearningPathApi {
                 $filteredResults = $data;
 
                 foreach ($filteredResults['years'] as &$year) {
+                    $toKeep = [];
+
                     foreach ($year['ue'] as &$ue) {
                         if (isset($ue['resources'])) {
-                            $filtered = array_filter($ue['resources'], function($obj) use ($type) {
-                                if ($obj['type'] != $type) {
-                                    return false;
+                            $filtered = array_filter($ue['resources'], function($obj) use ($origin, &$toKeep) {
+                                if (isset($obj['origin']) && $obj['origin'] == $origin) {
+                                    return true;
                                 }
-                                return true;
+                                return false;
                             });
+
                             $ue['resources'] = $filtered;
+
+                            if (count($filtered) > 0) {
+                                array_push($toKeep, self::index_of($year['ue'], $ue));
+                            }
+                        }
+
+                        // keep the filtered UE
+                        $newUEs = [];
+                        foreach($toKeep as $val) {
+                            array_push($newUEs, $year['ue'][$val]);
                         }
                     }
+
+                    // replace the UE with the filtered values only
+                    $year['ue'] = $newUEs;
                 }
+
+                $filteredResults['years'] = array_filter($filteredResults['years'], function($obj) {
+                    if (!isset($obj['ue']) || count($obj['ue']) == 0) {
+                        return false;
+                    }
+                    return true;
+                });
 
                 return $filteredResults;
             }
         }
         return $result;
+    }
+
+    private static function index_of($haystack, $element) {
+        $elementCount = count($haystack);
+        for ($i = 0 ; $i < $elementCount ; $i++){
+            if ($element == $haystack[$i]) {
+                return $i;   
+            }
+        }
+        return -1;
     }
 }

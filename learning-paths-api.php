@@ -30,7 +30,7 @@ function learningpathsapi_get_data($data) {
 
 function learningpathsapi_filter_data($data) {
   $diplomaModel = new LearningPathApi();
-  return $diplomaModel->filterData($data['id'], $data['type']);
+  return $diplomaModel->filterData($data['id'], $data['origin']);
 }
 
 add_action('rest_api_init', function () {
@@ -49,7 +49,7 @@ add_action('rest_api_init', function () {
       ),
     ),
   ));
-  register_rest_route('learningpathsapi/v1', '/filter/id=(?P<id>\d+)&type=(?P<type>[a-z]+)', array(
+  register_rest_route('learningpathsapi/v1', '/filter/id=(?P<id>\d+)&type=(?P<origin>[a-z]+)', array(
     'methods' => 'GET',
     'callback' => 'learningpathsapi_filter_data',
     'args' => array(
@@ -58,7 +58,7 @@ add_action('rest_api_init', function () {
           return is_numeric($param);
         }
       ),
-      'type' => array(
+      'origin' => array(
         'validate_callback' => function($param, $request, $key) {
           return is_string($param);
         }
