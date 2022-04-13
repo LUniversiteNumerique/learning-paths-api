@@ -28,6 +28,11 @@ function learningpathsapi_get_data($data) {
   return $diplomaModel->getData($diplomaId);
 }
 
+function learningpathsapi_filter_data($data) {
+  $diplomaModel = new LearningPathApi();
+  return $diplomaModel->filterData($data['id'], $data['origin']);
+}
+
 add_action('rest_api_init', function () {
   register_rest_route('learningpathsapi/v1', '/fields/all', array(
     'methods' => 'GET',
@@ -40,6 +45,22 @@ add_action('rest_api_init', function () {
       'id' => array(
         'validate_callback' => function($param, $request, $key) {
           return is_numeric($param);
+        }
+      ),
+    ),
+  ));
+  register_rest_route('learningpathsapi/v1', '/filter/id=(?P<id>\d+)&type=(?P<origin>[a-z]+)', array(
+    'methods' => 'GET',
+    'callback' => 'learningpathsapi_filter_data',
+    'args' => array(
+      'id' => array(
+        'validate_callback' => function($param, $request, $key) {
+          return is_numeric($param);
+        }
+      ),
+      'origin' => array(
+        'validate_callback' => function($param, $request, $key) {
+          return is_string($param);
         }
       ),
     ),
