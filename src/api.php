@@ -50,12 +50,15 @@ class LearningPathApi {
 
                     foreach ($year['ue'] as &$ue) {
                         if (isset($ue['resources'])) {
-                            $filtered = array_filter($ue['resources'], function($obj) use ($origin, &$toKeep) {
+                            $filtered = array_values(array_filter($ue['resources'], function($obj) use ($origin, &$toKeep) {
                                 if (isset($obj['origin']) && $obj['origin'] == $origin) {
                                     return true;
                                 }
+                                if (isset($obj['url']) && substr($obj['url'], 0, 38) === 'https://moodle.luniversitenumerique.fr') {
+                                    return true;
+                                }
                                 return false;
-                            });
+                            }));
 
                             $ue['resources'] = $filtered;
 
