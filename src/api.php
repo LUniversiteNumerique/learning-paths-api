@@ -5,7 +5,7 @@
  * @author            Pierre Duverneix
  * @copyright         2021 Fondation UNIT
  * @license           GPL-2.0-or-later
-*/
+ */
 
 require_once dirname(__DIR__) . '/../../../wp-load.php';
 require plugin_dir_path(__FILE__) . '../vendor/autoload.php';
@@ -22,10 +22,10 @@ class LearningPathApi {
         $result = new \stdClass();
         $result = array();
         $files = glob(__DIR__ . '/../parcours-hybridation/**/*.yml');
-        
-        foreach($files as $filename) {
+
+        foreach ($files as $filename) {
             $parts = explode("/", $filename);
-            $fileId = explode("-", $parts[count($parts)-1])[0];
+            $fileId = explode("-", $parts[count($parts) - 1])[0];
             if (is_numeric($fileId) && $fileId === $id) {
                 return Yaml::parseFile($filename);
             }
@@ -34,65 +34,63 @@ class LearningPathApi {
     }
 
     public function filterData($id, $origin) {
-        $result = new \stdClass();
-        $result = array();
         $files = glob(__DIR__ . '/../parcours-hybridation/**/*.yml');
-        
-        foreach($files as $filename) {
-            $parts = explode("/", $filename);
-            $fileId = explode("-", $parts[count($parts)-1])[0];
-            if (is_numeric($fileId) && $fileId === $id) {
-                $data = Yaml::parseFile($filename);
-                $filteredResults = $data;
 
-                foreach ($filteredResults['years'] as &$year) {
-                    $toKeep = [];
+        foreach ($files as $filename) {
+            $parts  = explode('/', $filename);
+            $fileId = explode('-', end($parts))[0];
 
-                    foreach ($year['ue'] as &$ue) {
-                        if (isset($ue['resources'])) {
-                            $filtered = array_filter($ue['resources'], function($obj) use ($origin, &$toKeep) {
-                                if (isset($obj['origin']) && $obj['origin'] == $origin) {
-                                    return true;
-                                }
-                                return false;
-                            });
+            if (!is_numeric($fileId) || (int)$fileId !== (int)$id) {
+                continue;
+            }
 
-                            $ue['resources'] = $filtered;
+            $data = Yaml::parseFile($filename);
 
-                            if (count($filtered) > 0) {
-                                array_push($toKeep, self::index_of($year['ue'], $ue));
-                            }
-                        }
-
-                        // keep the filtered UE
-                        $newUEs = [];
-                        foreach($toKeep as $val) {
-                            array_push($newUEs, $year['ue'][$val]);
-                        }
+            foreach ($data['years'] as $yKey => &$year) {
+                foreach ($year['ue'] as $ueKey => &$ue) {
+                    if (!isset($ue['resources'])) {
+                        unset($year['ue'][$ueKey]);
+                        continue;
                     }
 
-                    // replace the UE with the filtered values only
-                    $year['ue'] = $newUEs;
+                    $ue['resources'] = array_values(array_filter(
+                        $ue['resources'],
+                        function ($resource) use ($origin) {
+                            return isset($resource['url'])
+                                && stripos($resource['url'], $origin) !== false;
+                        }
+                    ));
+
+                    // Remove the UE if no remaining resources after filtering
+                    if (empty($ue['resources'])) {
+                        unset($year['ue'][$ueKey]);
+                    }
                 }
 
-                $filteredResults['years'] = array_filter($filteredResults['years'], function($obj) {
-                    if (!isset($obj['ue']) || count($obj['ue']) == 0) {
-                        return false;
-                    }
-                    return true;
-                });
+                // Reindex UE after removals
+                $year['ue'] = array_values($year['ue']);
 
-                return $filteredResults;
+                // Remove the year if no remaining UE
+                if (empty($year['ue'])) {
+                    unset($data['years'][$yKey]);
+                }
             }
+
+            // Reindex years array after removals
+            $data['years'] = array_values($data['years']);
+
+            return $data;
         }
-        return $result;
+
+        return [];
     }
+
 
     private static function index_of($haystack, $element) {
         $elementCount = count($haystack);
-        for ($i = 0 ; $i < $elementCount ; $i++){
+        for ($i = 0; $i < $elementCount; $i++) {
             if ($element == $haystack[$i]) {
-                return $i;   
+                return $i;
             }
         }
         return -1;
