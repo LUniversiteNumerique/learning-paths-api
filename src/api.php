@@ -47,6 +47,12 @@ class LearningPathApi {
             $data = Yaml::parseFile($filename);
 
             foreach ($data['years'] as $yKey => &$year) {
+                // Avoid errors if ue is empty.
+                if (empty($year['ue']) || !is_array($year['ue'])) {
+                    unset($data['years'][$yKey]);
+                    continue;
+                }
+
                 foreach ($year['ue'] as $ueKey => &$ue) {
                     if (!isset($ue['resources'])) {
                         unset($year['ue'][$ueKey]);
