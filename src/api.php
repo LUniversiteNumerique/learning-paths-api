@@ -46,6 +46,24 @@ class LearningPathApi {
 
             $data = Yaml::parseFile($filename);
 
+            // Flat structure
+            if (isset($data['resources']) && is_array($data['resources'])) {
+                $data['resources'] = array_values(array_filter(
+                    $data['resources'],
+                    function ($resource) use ($origin) {
+                        return isset($resource['url']) &&
+                            stripos($resource['url'], $origin) !== false;
+                    }
+                ));
+
+                return $data;
+            }
+
+            // Structure with years
+            if (!isset($data['years']) || !is_array($data['years'])) {
+                return [];
+            }
+
             foreach ($data['years'] as $yKey => &$year) {
                 // Avoid errors if ue is empty.
                 if (empty($year['ue']) || !is_array($year['ue'])) {
