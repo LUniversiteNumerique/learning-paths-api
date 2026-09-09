@@ -26,10 +26,14 @@ class LearningPathApi {
         foreach ($files as $filename) {
             $parts = explode("/", $filename);
             $fileId = explode("-", $parts[count($parts) - 1])[0];
+
             if (is_numeric($fileId) && $fileId === $id) {
-                return Yaml::parseFile($filename);
+                $data = Yaml::parseFile($filename);
+
+                return $this->addMoodleAttribute($data);
             }
         }
+
         return $result;
     }
 
@@ -109,14 +113,44 @@ class LearningPathApi {
         return [];
     }
 
-
-    private static function index_of($haystack, $element) {
-        $elementCount = count($haystack);
-        for ($i = 0; $i < $elementCount; $i++) {
-            if ($element == $haystack[$i]) {
-                return $i;
+    private function addMoodleAttribute(array $data): array {
+        if (isset($data['resources']) && is_array($data['resources'])) {
+            foreach ($data['resources'] as &$resource) {
+                if (
+                    isset($resource['url']) &&
+                    stripos($resource['url'], 'moodle') !== false
+                ) {
+                    $resource['moodle'] = true;
+                }
             }
+            unset($resource);
         }
-        return -1;
+
+        if (isset($data['years']) && is_array($data['years'])) {
+            foreach ($data['years'] as &$year) {
+                if (empty($year['ue']) || !is_array($year['ue'])) {
+                    continue;
+                }
+
+                foreach ($year['ue'] as &$ue) {
+                    if (empty($ue['resources']) || !is_array($ue['resources'])) {
+                        continue;
+                    }
+
+                    foreach ($ue['resources'] as &$resource) {
+                        if (
+                            isset($resource['url']) &&
+                            stripos($resource['url'], 'moodle') !== false
+                        ) {
+                            $resource['moodle'] = true;
+                        }
+                    }
+                    unset($resource);
+                }
+            }
+            unset($year);
+        }
+
+        return $data;
     }
 }
