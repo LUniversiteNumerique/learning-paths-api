@@ -113,44 +113,25 @@ class LearningPathApi {
         return [];
     }
 
-    private function addMoodleAttribute(array $data): array {
-        if (isset($data['resources']) && is_array($data['resources'])) {
-            foreach ($data['resources'] as &$resource) {
-                if (
-                    isset($resource['url']) &&
-                    stripos($resource['url'], 'moodle') !== false
-                ) {
-                    $resource['moodle'] = true;
-                }
+    private function addMoodleAttribute(array &$data): void {
+        foreach ($data as &$value) {
+            if (!is_array($value)) {
+                continue;
             }
-            unset($resource);
+
+            // This is a resource.
+            if (
+                isset($value['url']) &&
+                is_string($value['url']) &&
+                stripos($value['url'], 'moodle') !== false
+            ) {
+                $value['moodle'] = true;
+            }
+
+            // Continue recursively through the structure.
+            $this->addMoodleAttribute($value);
         }
 
-        if (isset($data['years']) && is_array($data['years'])) {
-            foreach ($data['years'] as &$year) {
-                if (empty($year['ue']) || !is_array($year['ue'])) {
-                    continue;
-                }
-
-                foreach ($year['ue'] as &$ue) {
-                    if (empty($ue['resources']) || !is_array($ue['resources'])) {
-                        continue;
-                    }
-
-                    foreach ($ue['resources'] as &$resource) {
-                        if (
-                            isset($resource['url']) &&
-                            stripos($resource['url'], 'moodle') !== false
-                        ) {
-                            $resource['moodle'] = true;
-                        }
-                    }
-                    unset($resource);
-                }
-            }
-            unset($year);
-        }
-
-        return $data;
+        unset($value);
     }
 }
