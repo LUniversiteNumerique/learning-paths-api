@@ -49,6 +49,7 @@ class LearningPathApi {
             }
 
             $data = Yaml::parseFile($filename);
+            $data = $this->addMoodleAttribute($data);
 
             // Flat structure
             if (isset($data['resources']) && is_array($data['resources'])) {
@@ -113,25 +114,21 @@ class LearningPathApi {
         return [];
     }
 
-    private function addMoodleAttribute(array &$data): void {
-        foreach ($data as &$value) {
+    private function addMoodleAttribute(array $data): array {
+        foreach ($data as $key => $value) {
             if (!is_array($value)) {
                 continue;
             }
 
-            // This is a resource.
-            if (
-                isset($value['url']) &&
-                is_string($value['url']) &&
-                stripos($value['url'], 'moodle') !== false
-            ) {
-                $value['moodle'] = true;
+            // If the element has an URL, it's a resource
+            if (isset($value['url']) && is_string($value['url'])) {
+                $value['moodle'] = stripos($value['url'], 'moodle') !== false;
             }
 
-            // Continue recursively through the structure.
-            $this->addMoodleAttribute($value);
+            // Walk the children recursively
+            $data[$key] = $this->addMoodleAttribute($value);
         }
 
-        unset($value);
+        return $data;
     }
 }
