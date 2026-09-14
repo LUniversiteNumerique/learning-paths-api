@@ -26,10 +26,14 @@ class LearningPathApi {
         foreach ($files as $filename) {
             $parts = explode("/", $filename);
             $fileId = explode("-", $parts[count($parts) - 1])[0];
+
             if (is_numeric($fileId) && $fileId === $id) {
-                return Yaml::parseFile($filename);
+                $data = Yaml::parseFile($filename);
+
+                return $this->addMoodleAttribute($data);
             }
         }
+
         return $result;
     }
 
@@ -45,6 +49,7 @@ class LearningPathApi {
             }
 
             $data = Yaml::parseFile($filename);
+            $data = $this->addMoodleAttribute($data);
 
             // Flat structure
             if (isset($data['resources']) && is_array($data['resources'])) {
@@ -109,14 +114,21 @@ class LearningPathApi {
         return [];
     }
 
-
-    private static function index_of($haystack, $element) {
-        $elementCount = count($haystack);
-        for ($i = 0; $i < $elementCount; $i++) {
-            if ($element == $haystack[$i]) {
-                return $i;
+    private function addMoodleAttribute(array $data): array {
+        foreach ($data as $key => $value) {
+            if (!is_array($value)) {
+                continue;
             }
+
+            // If the element has an URL, it's a resource
+            if (isset($value['url']) && is_string($value['url'])) {
+                $value['moodle'] = stripos($value['url'], 'moodle') !== false;
+            }
+
+            // Walk the children recursively
+            $data[$key] = $this->addMoodleAttribute($value);
         }
-        return -1;
+
+        return $data;
     }
 }

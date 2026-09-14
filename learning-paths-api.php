@@ -9,7 +9,7 @@
  * Plugin URI:        https://example.com/plugin-name
  * Description:       Learning paths API of L'Université Numérique
  * Version:           1.0.0
-*/
+ */
 
 require_once 'src/api.php';
 
@@ -43,7 +43,7 @@ add_action('rest_api_init', function () {
     'callback' => 'learningpathsapi_get_data',
     'args' => array(
       'id' => array(
-        'validate_callback' => function($param, $request, $key) {
+        'validate_callback' => function ($param, $request, $key) {
           return is_numeric($param);
         }
       ),
@@ -54,12 +54,12 @@ add_action('rest_api_init', function () {
     'callback' => 'learningpathsapi_filter_data',
     'args' => array(
       'id' => array(
-        'validate_callback' => function($param, $request, $key) {
+        'validate_callback' => function ($param, $request, $key) {
           return is_numeric($param);
         }
       ),
       'origin' => array(
-        'validate_callback' => function($param, $request, $key) {
+        'validate_callback' => function ($param, $request, $key) {
           return is_string($param);
         }
       ),
