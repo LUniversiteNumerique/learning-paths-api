@@ -61,6 +61,11 @@ class LearningPathApi {
                     }
                 ));
 
+                // No Moodle resource left -> we filter out
+                if (!$this->hasMoodleResource($data['resources'])) {
+                    return [];
+                }
+
                 return $data;
             }
 
@@ -95,6 +100,7 @@ class LearningPathApi {
                         unset($year['ue'][$ueKey]);
                     }
                 }
+                unset($ue); // break reference
 
                 // Reindex UE after removals
                 $year['ue'] = array_values($year['ue']);
@@ -104,9 +110,15 @@ class LearningPathApi {
                     unset($data['years'][$yKey]);
                 }
             }
+            unset($year); // break reference
 
             // Reindex years array after removals
             $data['years'] = array_values($data['years']);
+
+            // Top-level filter to drop everything if no remaining Moodle resource
+            if (!$this->hasMoodleResourceInYears($data['years'])) {
+                return [];
+            }
 
             return $data;
         }
@@ -130,5 +142,40 @@ class LearningPathApi {
         }
 
         return $data;
+    }
+
+    /**
+     * Check whether a flat list of resources contains at least one moodle resource.
+     */
+    private function hasMoodleResource(array $resources): bool {
+        foreach ($resources as $resource) {
+            if (!empty($resource['moodle'])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Check whether any UE resource is a Moodle resource.
+     */
+    private function hasMoodleResourceInYears(array $years): bool {
+        foreach ($years as $year) {
+            if (empty($year['ue']) || !is_array($year['ue'])) {
+                continue;
+            }
+
+            foreach ($year['ue'] as $ue) {
+                if (empty($ue['resources']) || !is_array($ue['resources'])) {
+                    continue;
+                }
+
+                if ($this->hasMoodleResource($ue['resources'])) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
     }
 }
